@@ -1,0 +1,10 @@
+command_id: 710.77A.2215D1|fc=1
+test_cases:
+- expected_values:
+    ID4_HV_EM_NV_PWR_LIMITATION: 9250
+    ID4_HV_EM_PWR_LIMITATION: 50
+  response: 77A076215D1010001B9
+- expected_values:
+    ID4_HV_EM_NV_PWR_LIMITATION: 9300
+    ID4_HV_EM_PWR_LIMITATION: 50
+  response: 77A076215D1010001BA
