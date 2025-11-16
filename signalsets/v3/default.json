@@ -76,7 +76,7 @@
   "signals": [
     {"id": "ID4_RR_WHEEL_SPEED", "path": "Movement", "fmt": { "len": 16, "max": 655.35, "div": 100, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"}
   ]},
-{ "hdr": "714", "rax": "7B0", "dbg": true, "cmd": {"22": "2613"}, "freq": 30,
+{ "hdr": "714", "dbg": true, "cmd": {"22": "2613"}, "freq": 30,
   "signals": [
     {"id": "ID4_IAT", "path": "Climate", "fmt": { "len": 16, "max": 255, "div": 10, "unit": "celsius" }, "name": "Interior air temperature"}
   ]},
