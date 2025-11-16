@@ -1,52 +1,52 @@
 command_id: 710.77A.222AB6|fc=1
 test_cases:
 - expected_values:
-    ID4_RANGE_V2: 56
+    ID4_RANGE: 56
   response: |-
     77A100A622AB6003800
     77A2138000001AAAAAA
 - expected_values:
-    ID4_RANGE_V2: 57
+    ID4_RANGE: 57
   response: |-
     77A100A622AB6003900
     77A2139000013AAAAAA
 - expected_values:
-    ID4_RANGE_V2: 63
+    ID4_RANGE: 63
   response: |-
     77A100A622AB6003F00
     77A213F000001AAAAAA
 - expected_values:
-    ID4_RANGE_V2: 63
+    ID4_RANGE: 63
   response: |-
     77A100A622AB6003F00
     77A213F00000FAAAAAA
 - expected_values:
-    ID4_RANGE_V2: 64
+    ID4_RANGE: 64
   response: |-
     77A100A622AB6004000
     77A2140000001AAAAAA
 - expected_values:
-    ID4_RANGE_V2: 111
+    ID4_RANGE: 111
   response: |-
     77A100A622AB6006F00
     77A216F000000AAAAAA
 - expected_values:
-    ID4_RANGE_V2: 240
+    ID4_RANGE: 240
   response: |-
     77A100A622AB600F000
     77A21F0000001AAAAAA
 - expected_values:
-    ID4_RANGE_V2: 255
+    ID4_RANGE: 255
   response: |-
     77A100A622AB600FF00
     77A21FF000001AAAAAA
 - expected_values:
-    ID4_RANGE_V2: 256
+    ID4_RANGE: 256
   response: |-
     77A100A622AB6010001
     77A2100000001AAAAAA
 - expected_values:
-    ID4_RANGE_V2: 2046
+    ID4_RANGE: 2046
   response: |-
     77A100A622AB607FE07
     77A21FE000000AAAAAA
