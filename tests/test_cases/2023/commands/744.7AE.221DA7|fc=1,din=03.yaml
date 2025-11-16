@@ -1,0 +1,11 @@
+command_id: 744.7AE.221DA7|fc=1,din=03
+test_cases:
+- expected_values:
+    ID4_CHRGR_V_OUT: 13
+  response: 7AE05621DA70D15
+- expected_values:
+    ID4_CHRGR_V_OUT: 13
+  response: 7AE05621DA70DF6
+- expected_values:
+    ID4_CHRGR_V_OUT: 14
+  response: 7AE05621DA70E00

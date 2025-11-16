@@ -1,0 +1,25 @@
+command_id: 710.77A.222AB8|fc=1
+test_cases:
+- expected_values:
+    ID4_HVBAT_KWH: 0
+  response: "77A 10 0B 62 2A B8 00 00 00 \n77A 21 00 00 00 00 00 AA AA "
+- expected_values:
+    ID4_HVBAT_KWH: 0
+  response: |-
+    77A100B622AB8000000
+    77A210000000000AAAA
+- expected_values:
+    ID4_HVBAT_KWH: 0.00057
+  response: |-
+    77A100B622AB8000002
+    77A21F100000000AAAA
+- expected_values:
+    ID4_HVBAT_KWH: 0.0006
+  response: |-
+    77A100B622AB8000003
+    77A210F00000000AAAA
+- expected_values:
+    ID4_HVBAT_KWH: 0.00176
+  response: |-
+    77A100B622AB8000009
+    77A210000000000AAAA

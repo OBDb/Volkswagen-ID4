@@ -1,0 +1,11 @@
+command_id: 746.7B0.2226ED|fc=1
+test_cases:
+- expected_values:
+    ID4_AIR_POLUTION: 0
+  response: "2226ED1\n7B0 04 62 26 ED 00 "
+- expected_values:
+    ID4_AIR_POLUTION: 0
+  response: 7B0046226ED00
+- expected_values:
+    ID4_AIR_POLUTION: 1.4
+  response: 7B0046226ED0E

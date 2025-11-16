@@ -1,4 +1,127 @@
 { "commands": [
-
+{ "hdr": "710", "rax": "77A", "dbg": true, "cmd": {"22": "2A0E"}, "freq": 5,
+  "signals": [
+    {"id": "ID4_SSB_R", "path": "Battery", "fmt": { "len": 8, "max": 100, "mul": 2, "div": 10, "unit": "milliohms" }, "name": "Start/stop battery resistance"}
+  ]},
+{ "hdr": "710", "rax": "77A", "fcm1": true, "dbg": true, "cmd": {"22": "2A53"}, "freq": 1,
+  "signals": [
+    {"id": "ID4_DCDC_V_LOW", "path": "Battery", "fmt": {           "len": 8,  "max": 25.5,               "div": 10,              "unit": "volts" }, "name": "DC-DC converter, low voltage"},
+    {"id": "ID4_DCDC_I",     "path": "Battery", "fmt": {"bix": 8,  "len": 16, "max": 65024, "min": -511,            "add": -511, "unit": "amps"  }, "name": "DC-DC converter, current"},
+    {"id": "ID4_DCDC_I_RSV", "path": "Battery", "fmt": {"bix": 24, "len": 16, "max": 65024, "min": -511,            "add": -511, "unit": "amps"  }, "name": "DC-DC converter, reserved current"}
+  ]},
+{ "hdr": "710", "rax": "77A", "fcm1": true, "dbg": true, "cmd": {"22": "2AB2"}, "freq": 86400,
+  "signals": [
+    {"id": "ID4_HVBAT_CAP",   "path": "Battery", "fmt": { "len": 32, "max": 3276,               "div": 1310770, "unit": "kilowattHours" }, "name": "HV battery capacity",    "description": "Total possible energy in the high voltage battery"},
+    {"id": "ID4_HVBAT_E_MAX", "path": "Battery", "fmt": { "len": 16, "max": 3276750, "mul": 50,                 "unit": "watts"         }, "name": "HV battery, max energy"}
+  ]},
+{ "hdr": "710", "rax": "77A", "fcm1": true, "dbg": true, "cmd": {"22": "2AB4"}, "freq": 1,
+  "signals": [
+    {"id": "ID4_RANGE_EST_INT",      "path": "Battery.Internal", "fmt": {"bix": 16, "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Estimated electric power reserve"},
+    {"id": "ID4_HVBAT_CSMP_AVG_INT", "path": "Battery.Internal", "fmt": {"bix": 72, "len": 8,  "max": 255,   "unit": "amps"       }, "name": "Average battery consumption"}
+  ]},
+{ "hdr": "710", "rax": "77A", "fcm1": true, "dbg": true, "cmd": {"22": "2AB5"}, "freq": 1,
+  "signals": [
+    {"id": "ID4_RANGE_EST_CAN", "path": "Battery", "fmt": {"bix": 32, "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Estimated reserve range"}
+  ]},
+{ "hdr": "710", "rax": "77A", "fcm1": true, "dbg": true, "cmd": {"22": "2AB6"}, "freq": 5,
+  "signals": [
+    {"id": "ID4_RANGE_V2", "path": "Trips", "fmt": { "len": 16, "max": 65535, "unit": "miles" }, "name": "Range remaining", "suggestedMetric": "electricRange"}
+  ]},
+{ "hdr": "710", "rax": "77A", "fcm1": true, "dbg": true, "cmd": {"22": "2AB7"}, "freq": 5,
+  "signals": [
+    {"id": "ID4_AVG_CSMP_CAT0", "path": "Trips", "fmt": {           "len": 16, "max": 6553, "div": 10, "unit": "kilowattHours" }, "name": "Average consumption (category 0)"},
+    {"id": "ID4_AVG_CSMP_CAT1", "path": "Trips", "fmt": {"bix": 16, "len": 16, "max": 6553, "div": 10, "unit": "kilowattHours" }, "name": "Average consumption (category 1)"},
+    {"id": "ID4_AVG_CSMP_CAT2", "path": "Trips", "fmt": {"bix": 32, "len": 16, "max": 6553, "div": 10, "unit": "kilowattHours" }, "name": "Average consumption (category 2)"},
+    {"id": "ID4_AVG_CSMP_CAT3", "path": "Trips", "fmt": {"bix": 48, "len": 16, "max": 6553, "div": 10, "unit": "kilowattHours" }, "name": "Average consumption (category 3)"},
+    {"id": "ID4_AVG_CSMP_CAT4", "path": "Trips", "fmt": {"bix": 64, "len": 16, "max": 6553, "div": 10, "unit": "kilowattHours" }, "name": "Average consumption (category 4)"},
+    {"id": "ID4_AVG_CSMP_CAT5", "path": "Trips", "fmt": {"bix": 80, "len": 16, "max": 6553, "div": 10, "unit": "kilowattHours" }, "name": "Average consumption (category 5)"},
+    {"id": "ID4_AVG_CSMP_CAT6", "path": "Trips", "fmt": {"bix": 96, "len": 16, "max": 6553, "div": 10, "unit": "kilowattHours" }, "name": "Average consumption (category 6)"}
+  ]},
+{ "hdr": "710", "rax": "77A", "fcm1": true, "dbg": true, "cmd": {"22": "2AB8"}, "freq": 1,
+  "signals": [
+    {"id": "ID4_HVBAT_KWH", "path": "Battery", "fmt": { "len": 32, "max": 3276, "div": 1310770, "unit": "kilowattHours" }, "name": "HV battery energy", "description": "Energy stored in the high voltage battery"}
+  ]},
+{ "hdr": "710", "rax": "77A", "fcm1": true, "dbg": true, "cmd": {"22": "2AF7"}, "freq": 1,
+  "signals": [
+    {"id": "ID4_AUX_BAT_V",        "path": "Battery", "fmt": {            "len": 16, "max": 69,                                      "div": 1000, "add": 4,                 "unit": "volts"       }, "name": "12V battery voltage"},
+    {"id": "ID4_AUX_BAT_C",        "path": "Battery", "fmt": {"bix": 16,  "len": 32, "max": 1000000,  "min": -1000000, "mul": 0.001,                          "sign": true, "unit": "amps"        }, "name": "12V battery current"},
+    {"id": "ID4_AUX_BAT_SOC",      "path": "Battery", "fmt": {"bix": 56,  "len": 8,  "max": 100,                                                                            "unit": "percent"     }, "name": "12V battery soc"},
+    {"id": "ID4_AUX_BAT_T",        "path": "Battery", "fmt": {"bix": 64,  "len": 8,  "max": 215,      "min": -40,                                 "add": -40,               "unit": "celsius"     }, "name": "12V battery temperature"},
+    {"id": "ID4_AUX_BAT_T_S",      "path": "Battery", "fmt": {"bix": 72,  "len": 8,  "max": 215,      "min": -40,                                 "add": -40,               "unit": "celsius"     }, "name": "12V battery sensor temperature"},
+    {"id": "ID4_AUX_BAT_CHRG_TOT", "path": "Battery", "fmt": {"bix": 96,  "len": 32, "max": 10000000,                                "div": 10,                             "unit": "ampereHours" }, "name": "12V battery total charge"},
+    {"id": "ID4_AUX_BAT_DSCH_TOT", "path": "Battery", "fmt": {"bix": 128, "len": 32, "max": 10000000,                                "div": 10,                             "unit": "ampereHours" }, "name": "12V battery total discharge"},
+    {"id": "ID4_AUX_BAT_AGE_CAP",  "path": "Battery", "fmt": {"bix": 160, "len": 8,  "max": 100,                                                                            "unit": "percent"     }, "name": "12V battery aging by capacity"},
+    {"id": "ID4_AUX_BAT_AGE_POW",  "path": "Battery", "fmt": {"bix": 168, "len": 8,  "max": 100,                                                                            "unit": "percent"     }, "name": "12V battery aging by power"},
+    {"id": "ID4_AUX_BAT_CAP",      "path": "Battery", "fmt": {"bix": 176, "len": 8,  "max": 100,                                                                            "unit": "ampereHours" }, "name": "12V battery adapted capacity"}
+  ]},
+{ "hdr": "714", "rax": "7B0", "dbg": true, "cmd": {"22": "2613"}, "freq": 30,
+  "signals": [
+    {"id": "ID4_IAT", "path": "Climate", "fmt": { "len": 16, "max": 255, "div": 10, "unit": "celsius" }, "name": "Interior air temperature"}
+  ]},
+{ "hdr": "744", "rax": "7AE", "fcm1": true, "din": "03", "dbg": true, "cmd": {"22": "1507"}, "freq": 1,
+  "signals": [
+    {"id": "ID4_CHRGR_RAIL1_E", "path": "Battery", "fmt": {           "len": 24, "max": 1677721, "div": 10, "unit": "kilowattHours" }, "name": "Rail 1 energy transformation"},
+    {"id": "ID4_CHRGR_RAIL2_E", "path": "Battery", "fmt": {"bix": 24, "len": 24, "max": 1677721, "div": 10, "unit": "kilowattHours" }, "name": "Rail 2 energy transformation"},
+    {"id": "ID4_CHRGR_RAIL3_E", "path": "Battery", "fmt": {"bix": 48, "len": 24, "max": 1677721, "div": 10, "unit": "kilowattHours" }, "name": "Rail 3 energy transformation"}
+  ]},
+{ "hdr": "744", "rax": "7AE", "fcm1": true, "din": "03", "dbg": true, "cmd": {"22": "15D6"}, "freq": 1,
+  "signals": [
+    {"id": "ID4_CHRGR_EFFICIENCY", "path": "Battery", "fmt": { "len": 8, "max": 100.5, "min": 75, "div": 10, "add": 75, "unit": "amps" }, "name": "Power efficiency"}
+  ]},
+{ "hdr": "744", "rax": "7AE", "fcm1": true, "din": "03", "dbg": true, "cmd": {"22": "15E2"}, "freq": 1,
+  "signals": [
+    {"id": "ID4_CHRGR_COOLANT_T", "path": "Battery", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Charger coolant temperature"}
+  ]},
+{ "hdr": "744", "rax": "7AE", "fcm1": true, "din": "03", "dbg": true, "cmd": {"22": "15EE"}, "freq": 1,
+  "signals": [
+    {"id": "ID4_CHRGR_DUR_TOTAL", "path": "Battery", "fmt": { "len": 32, "max": 4294967295, "unit": "minutes" }, "name": "Charging duration total"}
+  ]},
+{ "hdr": "744", "rax": "7AE", "fcm1": true, "din": "03", "dbg": true, "cmd": {"22": "1DA7"}, "freq": 1,
+  "signals": [
+    {"id": "ID4_CHRGR_V_OUT", "path": "Battery", "fmt": { "len": 8, "max": 255, "unit": "volts" }, "name": "HV charger output voltage"}
+  ]},
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "dbg": true, "cmd": {"22": "2604"}, "freq": 1,
+  "signals": [
+    {"id": "ID4_HVAC_AC_LOAD", "path": "Climate", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "newtonMeters" }, "name": "A/C compressor load"}
+  ]},
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "dbg": true, "cmd": {"22": "2606"}, "freq": 1,
+  "signals": [
+    {"id": "ID4_HVAC_FAN1_ACT", "path": "Climate", "fmt": {           "len": 16, "max": 6553.5, "div": 10, "unit": "percent" }, "name": "Radiator fan actual value #1"},
+    {"id": "ID4_HVAC_FAN2_ACT", "path": "Climate", "fmt": {"bix": 16, "len": 16, "max": 6553.5, "div": 10, "unit": "percent" }, "name": "Radiator fan actual value #2"}
+  ]},
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "dbg": true, "cmd": {"22": "2607"}, "freq": 1,
+  "signals": [
+    {"id": "ID4_HVAC_FAN_CMD", "path": "Climate", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "percent" }, "name": "Radiator fan commanded value"}
+  ]},
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "dbg": true, "cmd": {"22": "2609"}, "freq": 1,
+  "signals": [
+    {"id": "ID4_HVAC_OUTSIDE_T", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "celsius" }, "name": "Outside temperature"}
+  ]},
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "dbg": true, "cmd": {"22": "2612"}, "freq": 1,
+  "signals": [
+    {"id": "ID4_HVAC_EVAP_T", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "celsius" }, "name": "Evaporator output temperature"}
+  ]},
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "dbg": true, "cmd": {"22": "2613"}, "freq": 1,
+  "signals": [
+    {"id": "ID4_HVAC_INTERIOR_T", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "celsius" }, "name": "Interior temperature"}
+  ]},
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "dbg": true, "cmd": {"22": "26ED"}, "freq": 1,
+  "signals": [
+    {"id": "ID4_AIR_POLUTION", "path": "Climate", "fmt": { "len": 8, "max": 12.7, "min": -12.7, "div": 10, "sign": true, "unit": "scalar" }, "name": "Air pollution level", "description": "0 means clean air."}
+  ]},
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "dbg": true, "cmd": {"22": "27C3"}, "freq": 1,
+  "signals": [
+    {"id": "ID4_HVAC_OUTSIDE_HUM", "path": "Climate", "fmt": {"bix": 56, "len": 8, "max": 100, "div": 2, "unit": "percent" }, "name": "Outside humidity"}
+  ]},
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "dbg": true, "cmd": {"22": "27C4"}, "freq": 30,
+  "signals": [
+    {"id": "ID4_WNDSHLD_TEMP",    "path": "Climate", "fmt": {           "len": 8, "max": 108.08, "min": -38.8, "mul": 0.576,           "add": -38.8, "unit": "celsius" }, "name": "Windshield temperature"},
+    {"id": "ID4_HVAC_INSIDE_HUM", "path": "Climate", "fmt": {"bix": 32, "len": 8, "max": 100,                                "div": 2,               "unit": "percent" }, "name": "Inside humidity"}
+  ]},
+{ "hdr": "767", "rax": "7D1", "fcm1": true, "dbg": true, "cmd": {"22": "2431"}, "freq": 1,
+  "signals": [
+    {"id": "ID4_GPS_SATS_VISIBLE", "path": "GPS", "fmt": {          "len": 8, "max": 255, "unit": "scalar" }, "name": "Satellites, visible"},
+    {"id": "ID4_GPS_SATS_TRACKED", "path": "GPS", "fmt": {"bix": 8, "len": 8, "max": 255, "unit": "scalar" }, "name": "Satellites, tracked"}
+  ]}
 ]
 }

@@ -1,0 +1,18 @@
+command_id: 767.7D1.222431|fc=1
+test_cases:
+- expected_values:
+    ID4_GPS_SATS_TRACKED: 0
+    ID4_GPS_SATS_VISIBLE: 1
+  response: 7D106622431010000
+- expected_values:
+    ID4_GPS_SATS_TRACKED: 16
+    ID4_GPS_SATS_VISIBLE: 4
+  response: 7D106622431041007
+- expected_values:
+    ID4_GPS_SATS_TRACKED: 16
+    ID4_GPS_SATS_VISIBLE: 4
+  response: 7D106622431041010
+- expected_values:
+    ID4_GPS_SATS_TRACKED: 13
+    ID4_GPS_SATS_VISIBLE: 255
+  response: 7D106622431FF0D0C
