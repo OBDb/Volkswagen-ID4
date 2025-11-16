@@ -243,19 +243,19 @@
   ]},
 { "hdr": "FC00", "rax": "FE0076", "pri": "17", "tst": "76", "dbg": true, "cmd": {"22": "2005"}, "freq": 1,
   "signals": [
-    {"id": "ID4_BRAKE_BOOSTER_P", "path": "Engine", "fmt": { "len": 16, "max": 65.535, "div": 1000, "unit": "bars" }, "name": "brake booster pressure"}
+    {"id": "ID4_BRAKE_BOOSTER_P", "path": "Engine", "fmt": { "len": 16, "max": 65.535, "div": 1000, "unit": "bars" }, "name": "Brake booster pressure"}
   ]},
 { "hdr": "FC00", "rax": "FE0076", "pri": "17", "tst": "76", "dbg": true, "cmd": {"22": "2055"}, "freq": 1,
   "signals": [
-    {"id": "ID4_RADIATOR_FAN_DUTY", "path": "Engine", "fmt": { "len": 16, "max": 100, "div": 100, "unit": "percent" }, "name": "radiator fan duty"}
+    {"id": "ID4_RADIATOR_FAN_DUTY", "path": "Engine", "fmt": { "len": 16, "max": 100, "div": 100, "unit": "percent" }, "name": "Radiator fan duty"}
   ]},
 { "hdr": "FC00", "rax": "FE0076", "pri": "17", "tst": "76", "dbg": true, "cmd": {"22": "276D"}, "freq": 1,
   "signals": [
-    {"id": "ID4_COOLANT_CIRC_PUMP_DUTY", "path": "Engine", "fmt": { "len": 16, "max": 100, "div": 100, "unit": "percent" }, "name": "coolant circulation pump duty"}
+    {"id": "ID4_COOLANT_CIRC_PUMP_DUTY", "path": "Engine", "fmt": { "len": 16, "max": 100, "div": 100, "unit": "percent" }, "name": "Coolant circulation pump duty"}
   ]},
 { "hdr": "FC00", "rax": "FE0076", "pri": "17", "tst": "76", "dbg": true, "cmd": {"22": "295A"}, "freq": 1,
   "signals": [
-    {"id": "ID4_ENG_ODO", "path": "Trips", "fmt": { "len": 24, "max": 200000, "unit": "kilometers" }, "name": "odometer"}
+    {"id": "ID4_ENG_ODO", "path": "Trips", "fmt": { "len": 24, "max": 200000, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
 { "hdr": "FC00", "rax": "FE0076", "pri": "17", "tst": "76", "dbg": true, "cmd": {"22": "29D4"}, "freq": 1,
   "signals": [
