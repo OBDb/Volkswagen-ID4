@@ -1,26 +1,20 @@
 command_id: 710.77A.222AB2|fc=1
 test_cases:
 - expected_values:
-    ID4_HVBAT_CAP: 76.94785
-    ID4_HVBAT_E_MAX: 76950
+    ID4_HVBAT_CAP: 76.95
   response: 77A07622AB206030400
 - expected_values:
-    ID4_HVBAT_CAP: 76.94785
-    ID4_HVBAT_E_MAX: 76950
+    ID4_HVBAT_CAP: 76.95
   response: 77A07622AB206030401
 - expected_values:
-    ID4_HVBAT_CAP: 76.99784
-    ID4_HVBAT_E_MAX: 77000
+    ID4_HVBAT_CAP: 77
   response: 77A07622AB206040400
 - expected_values:
-    ID4_HVBAT_CAP: 76.99784
-    ID4_HVBAT_E_MAX: 77000
+    ID4_HVBAT_CAP: 77
   response: 77A07622AB206040401
 - expected_values:
-    ID4_HVBAT_CAP: 77.34783
-    ID4_HVBAT_E_MAX: 77350
+    ID4_HVBAT_CAP: 77.35
   response: 77A07622AB2060B0400
 - expected_values:
-    ID4_HVBAT_CAP: 327.38829
-    ID4_HVBAT_E_MAX: 327400
+    ID4_HVBAT_CAP: 327.4
   response: 77A07622AB219940401

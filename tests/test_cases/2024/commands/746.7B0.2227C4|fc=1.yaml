@@ -1,0 +1,26 @@
+command_id: 746.7B0.2227C4|fc=1
+test_cases:
+- expected_values:
+    ID4_HVAC_INSIDE_HUM: 45.5
+    ID4_WNDSHLD_TEMP: 34.352
+  response: |-
+    7B010086227C47F2802
+    7B021045BAAAAAAAAAA
+- expected_values:
+    ID4_HVAC_INSIDE_HUM: 47.5
+    ID4_WNDSHLD_TEMP: 34.928
+  response: |-
+    7B010086227C480E7F2
+    7B021045FAAAAAAAAAA
+- expected_values:
+    ID4_HVAC_INSIDE_HUM: 48.5
+    ID4_WNDSHLD_TEMP: 35.504
+  response: |-
+    7B010086227C481E802
+    7B0210461AAAAAAAAAA
+- expected_values:
+    ID4_HVAC_INSIDE_HUM: 100
+    ID4_WNDSHLD_TEMP: 108.08
+  response: |-
+    7B010086227C4FFFFF3
+    7B021FCFFAAAAAAAAAA

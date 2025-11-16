@@ -1,4 +1,4 @@
-command_id: 746.2227C4|fc=1
+command_id: 746.7B0.2227C4|fc=1
 test_cases:
 - expected_values:
     ID4_HVAC_INSIDE_HUM: 39.5
