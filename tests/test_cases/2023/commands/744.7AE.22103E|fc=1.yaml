@@ -1,0 +1,5 @@
+command_id: 744.7AE.22103E|fc=1
+test_cases:
+- expected_values:
+    ID4_OBC_CYCLE_ENERGY: 0
+  response: 7AE0562103E0000

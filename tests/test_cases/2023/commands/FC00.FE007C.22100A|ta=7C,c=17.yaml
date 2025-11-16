@@ -1,0 +1,26 @@
+command_id: FC00.FE007C.22100A|ta=7C,c=17
+test_cases:
+- expected_values:
+    ID4_MOTOR_V_Q_CMD: 1000
+  response: 17FE007C0762100A3715F5D0
+- expected_values:
+    ID4_MOTOR_V_Q_CMD: 1000
+  response: 17FE007C0762100A39E5EF03
+- expected_values:
+    ID4_MOTOR_V_Q_CMD: 1000
+  response: 17FE007C0762100A3A3601DE
+- expected_values:
+    ID4_MOTOR_V_Q_CMD: 1000
+  response: 17FE007C0762100A40FACB50
+- expected_values:
+    ID4_MOTOR_V_Q_CMD: 1000
+  response: 17FE007C0762100A4219C1FE
+- expected_values:
+    ID4_MOTOR_V_Q_CMD: 1000
+  response: 17FE007C0762100A4222FC5F
+- expected_values:
+    ID4_MOTOR_V_Q_CMD: 1000
+  response: 17FE007C0762100ABA09C51D
+- expected_values:
+    ID4_MOTOR_V_Q_CMD: 1000
+  response: 17FE007C0762100ABE4534C4

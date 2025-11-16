@@ -1,0 +1,26 @@
+command_id: FC00.FE007B.221622|ta=7B,c=17
+test_cases:
+- expected_values:
+    ID4_HVBAT_ECU_T: 27
+  response: 17FE007B046216224D
+- expected_values:
+    ID4_HVBAT_ECU_T: 28
+  response: 17FE007B046216224E
+- expected_values:
+    ID4_HVBAT_ECU_T: 29
+  response: 17FE007B046216224F
+- expected_values:
+    ID4_HVBAT_ECU_T: 30
+  response: 17FE007B0462162250
+- expected_values:
+    ID4_HVBAT_ECU_T: 31
+  response: 17FE007B0462162251
+- expected_values:
+    ID4_HVBAT_ECU_T: 32
+  response: 17FE007B0462162252
+- expected_values:
+    ID4_HVBAT_ECU_T: 33
+  response: 17FE007B0462162253
+- expected_values:
+    ID4_HVBAT_ECU_T: 34
+  response: 17FE007B0462162254

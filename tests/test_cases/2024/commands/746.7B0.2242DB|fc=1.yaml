@@ -1,0 +1,5 @@
+command_id: 746.7B0.2242DB|fc=1
+test_cases:
+- expected_values:
+    ID4_CO2_CONTENT_INTERIOR: 25500
+  response: 7B0056242DB03FF

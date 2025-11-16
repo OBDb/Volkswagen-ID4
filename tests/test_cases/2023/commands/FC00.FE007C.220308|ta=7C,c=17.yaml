@@ -1,0 +1,26 @@
+command_id: FC00.FE007C.220308|ta=7C,c=17
+test_cases:
+- expected_values:
+    ID4_CALC_FROM_MEAS_IS: 1000
+  response: 17FE007C076203083B0835E7
+- expected_values:
+    ID4_CALC_FROM_MEAS_IS: 1000
+  response: 17FE007C07620308400026BE
+- expected_values:
+    ID4_CALC_FROM_MEAS_IS: 1000
+  response: 17FE007C0762030842020160
+- expected_values:
+    ID4_CALC_FROM_MEAS_IS: 1000
+  response: 17FE007C07620308BC67FC06
+- expected_values:
+    ID4_CALC_FROM_MEAS_IS: 1000
+  response: 17FE007C07620308BCEF8606
+- expected_values:
+    ID4_CALC_FROM_MEAS_IS: 1000
+  response: 17FE007C07620308C1936AFE
+- expected_values:
+    ID4_CALC_FROM_MEAS_IS: 1000
+  response: 17FE007C07620308C21B986F
+- expected_values:
+    ID4_CALC_FROM_MEAS_IS: 1000
+  response: 17FE007C07620308C2B15D02
