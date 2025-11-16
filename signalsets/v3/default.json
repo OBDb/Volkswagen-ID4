@@ -68,7 +68,7 @@
   "signals": [
     {"id": "ID4_OBC_CYCLE_ENERGY", "path": "Battery", "fmt": { "len": 16, "max": 655.35, "div": 100, "unit": "kilowattHours" }, "name": "Cycle energy transformation"}
   ]},
-{ "hdr": "744", "rax": "7AE", "fcm1": true, "dbg": true, "cmd": {"22": "1507"}, "freq": 1,
+{ "hdr": "744", "rax": "7AE", "fcm1": true, "cmd": {"22": "1507"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "ID4_CHRGR_RAIL1_E", "path": "Battery", "fmt": {           "len": 24, "max": 1677721, "div": 10, "unit": "kilowattHours" }, "name": "Rail 1 energy transformation"},
     {"id": "ID4_CHRGR_RAIL2_E", "path": "Battery", "fmt": {"bix": 24, "len": 24, "max": 1677721, "div": 10, "unit": "kilowattHours" }, "name": "Rail 2 energy transformation"},
@@ -78,19 +78,19 @@
   "signals": [
     {"id": "ID4_OBC_V_PROX_A", "path": "Battery", "fmt": { "len": 16, "max": 65535, "unit": "millivolts" }, "name": "Voltage proximity, socket a"}
   ]},
-{ "hdr": "744", "rax": "7AE", "fcm1": true, "dbg": true, "cmd": {"22": "15D6"}, "freq": 1,
+{ "hdr": "744", "rax": "7AE", "fcm1": true, "cmd": {"22": "15D6"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "ID4_CHRGR_EFFICIENCY", "path": "Battery", "fmt": { "len": 8, "max": 100.5, "min": 75, "div": 10, "add": 75, "unit": "amps" }, "name": "Power efficiency"}
   ]},
-{ "hdr": "744", "rax": "7AE", "fcm1": true, "dbg": true, "cmd": {"22": "15E2"}, "freq": 1,
+{ "hdr": "744", "rax": "7AE", "fcm1": true, "cmd": {"22": "15E2"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "ID4_CHRGR_COOLANT_T", "path": "Battery", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Temperature, Charger coolant"}
   ]},
-{ "hdr": "744", "rax": "7AE", "fcm1": true, "dbg": true, "cmd": {"22": "15EE"}, "freq": 1,
+{ "hdr": "744", "rax": "7AE", "fcm1": true, "cmd": {"22": "15EE"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "ID4_CHRGR_DUR_TOTAL", "path": "Battery", "fmt": { "len": 32, "max": 4294967295, "unit": "minutes" }, "name": "Charging duration total"}
   ]},
-{ "hdr": "744", "rax": "7AE", "fcm1": true, "dbg": true, "cmd": {"22": "1DA7"}, "freq": 1,
+{ "hdr": "744", "rax": "7AE", "fcm1": true, "cmd": {"22": "1DA7"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "ID4_OBC_HIGH_V_OUTPUT", "path": "Battery", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "volts" }, "name": "High voltage output"}
   ]},
@@ -139,11 +139,11 @@
   "signals": [
     {"id": "ID4_FRONT_RIGHT_DEFL_T", "path": "Engine", "fmt": { "len": 8, "max": 84.915, "mul": 0.333, "unit": "celsius" }, "name": "Temperature, front right deflector"}
   ]},
-{ "hdr": "746", "rax": "7B0", "fcm1": true, "dbg": true, "cmd": {"22": "2612"}, "freq": 1,
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2612"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2025 },
   "signals": [
     {"id": "ID4_HVAC_EVAP_T", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "celsius" }, "name": "Temperature, evaporator output"}
   ]},
-{ "hdr": "746", "rax": "7B0", "fcm1": true, "dbg": true, "cmd": {"22": "2613"}, "freq": 1,
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2613"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2025 },
   "signals": [
     {"id": "ID4_HVAC_IAT", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "celsius" }, "name": "Temperature, interior"}
   ]},
@@ -176,7 +176,7 @@
   "signals": [
     {"id": "ID4_REAR_DEFL_T", "path": "Engine", "fmt": { "len": 8, "max": 84.915, "mul": 0.333, "unit": "celsius" }, "name": "Temperature, rear deflector"}
   ]},
-{ "hdr": "746", "rax": "7B0", "fcm1": true, "dbg": true, "cmd": {"22": "26ED"}, "freq": 1,
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "26ED"}, "freq": 1, "dbgfilter": { "from": 2026 },
   "signals": [
     {"id": "ID4_AIR_POLUTION", "path": "Climate", "fmt": { "len": 8, "max": 12.7, "min": -12.7, "div": 10, "sign": true, "unit": "scalar" }, "name": "Air pollution level", "description": "0 means clean air."}
   ]},
@@ -243,7 +243,7 @@
   ]},
 { "hdr": "FC00", "rax": "FE0076", "pri": "17", "tst": "76", "dbg": true, "cmd": {"22": "2005"}, "freq": 1,
   "signals": [
-    {"id": "ID4_BRAKE_BOOSTER_P", "path": "Engine", "fmt": { "len": 16, "max": 65.535, "div": 1000, "unit": "bars" }, "name": "Brake booster pressure"}
+    {"id": "ID4_BRAKE_BOOSTER_P", "path": "Control", "fmt": { "len": 16, "max": 65.535, "div": 1000, "unit": "bars" }, "name": "Brake booster pressure"}
   ]},
 { "hdr": "FC00", "rax": "FE0076", "pri": "17", "tst": "76", "dbg": true, "cmd": {"22": "2055"}, "freq": 1,
   "signals": [
@@ -322,12 +322,12 @@
     {"id": "ID4_HVBAT_T_OUT", "path": "Battery", "fmt": {           "len": 16, "max": 511, "min": -512, "div": 64, "sign": true, "unit": "celsius" }, "name": "Battery temperature, outlet"},
     {"id": "ID4_HVBAT_T_IN",  "path": "Battery", "fmt": {"bix": 16, "len": 16, "max": 511, "min": -512, "div": 64, "sign": true, "unit": "celsius" }, "name": "Battery temperature, inlet"}
   ]},
-{ "hdr": "FC00", "rax": "FE007B", "pri": "17", "tst": "7B", "dbg": true, "cmd": {"22": "1E0E"}, "freq": 1,
+{ "hdr": "FC00", "rax": "FE007B", "pri": "17", "tst": "7B", "cmd": {"22": "1E0E"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "ID4_HVBAT_T_MAX",    "path": "Battery", "fmt": {           "len": 16, "max": 511,   "min": -512, "div": 64, "sign": true, "unit": "celsius" }, "name": "Battery temperature, max"},
     {"id": "ID4_HVBAT_T_MAX_ID", "path": "Battery", "fmt": {"bix": 16, "len": 16, "max": 65535,                                       "unit": "scalar"  }, "name": "Battery temperature, max sensor ID"}
   ]},
-{ "hdr": "FC00", "rax": "FE007B", "pri": "17", "tst": "7B", "dbg": true, "cmd": {"22": "1E0F"}, "freq": 1,
+{ "hdr": "FC00", "rax": "FE007B", "pri": "17", "tst": "7B", "cmd": {"22": "1E0F"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "ID4_HVBAT_T_MIN",    "path": "Battery", "fmt": {           "len": 16, "max": 511,   "min": -512, "div": 64, "sign": true, "unit": "celsius" }, "name": "Battery temperature, min"},
     {"id": "ID4_HVBAT_T_MIN_ID", "path": "Battery", "fmt": {"bix": 16, "len": 16, "max": 65535,                                       "unit": "scalar"  }, "name": "Battery temperature, min sensor ID"}

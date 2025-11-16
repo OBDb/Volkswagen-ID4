@@ -4,5 +4,5 @@ test_cases:
     ID4_HVAC_IAT: 28.3
   response: 7B005622613011B
 - expected_values:
-    ID4_HVAC_IAT: 32.1
-  response: 7B0056226130141
+    ID4_HVAC_IAT: 32.4
+  response: 7B0056226130144
