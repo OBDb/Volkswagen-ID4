@@ -1,4 +1,4 @@
-command_id: 744.7AE.221507|fc=1,din=03
+command_id: 744.7AE.221507|fc=1
 test_cases:
 - expected_values:
     ID4_CHRGR_RAIL1_E: 760.2

@@ -60,47 +60,63 @@
     {"id": "ID4_AUX_BAT_AGE_POW",  "path": "Battery", "fmt": {"bix": 168, "len": 8,  "max": 100,                                                                            "unit": "percent"     }, "name": "12V battery aging by power"},
     {"id": "ID4_AUX_BAT_CAP",      "path": "Battery", "fmt": {"bix": 176, "len": 8,  "max": 100,                                                                            "unit": "ampereHours" }, "name": "12V battery adapted capacity"}
   ]},
-{ "hdr": "713", "rax": "77D", "fcm1": true, "din": "03", "dbg": true, "cmd": {"22": "1800"}, "freq": 1,
+{ "hdr": "713", "rax": "77D", "fcm1": true, "dbg": true, "cmd": {"22": "1800"}, "freq": 1,
   "signals": [
     {"id": "ID4_FL_WHEEL_SPEED", "path": "Movement", "fmt": { "len": 16, "max": 655.35, "div": 100, "unit": "kilometersPerHour" }, "name": "Front left wheel speed"}
   ]},
-{ "hdr": "713", "rax": "77D", "fcm1": true, "din": "03", "dbg": true, "cmd": {"22": "1801"}, "freq": 1,
+{ "hdr": "713", "rax": "77D", "fcm1": true, "dbg": true, "cmd": {"22": "1801"}, "freq": 1,
   "signals": [
     {"id": "ID4_FR_WHEEL_SPEED", "path": "Movement", "fmt": { "len": 16, "max": 655.35, "div": 100, "unit": "kilometersPerHour" }, "name": "Front right wheel speed"}
   ]},
-{ "hdr": "713", "rax": "77D", "fcm1": true, "din": "03", "dbg": true, "cmd": {"22": "1802"}, "freq": 1,
+{ "hdr": "713", "rax": "77D", "fcm1": true, "dbg": true, "cmd": {"22": "1802"}, "freq": 1,
   "signals": [
     {"id": "ID4_RL_WHEEL_SPEED", "path": "Movement", "fmt": { "len": 16, "max": 655.35, "div": 100, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"}
   ]},
-{ "hdr": "713", "rax": "77D", "fcm1": true, "din": "03", "dbg": true, "cmd": {"22": "1803"}, "freq": 1,
+{ "hdr": "713", "rax": "77D", "fcm1": true, "dbg": true, "cmd": {"22": "1803"}, "freq": 1,
   "signals": [
     {"id": "ID4_RR_WHEEL_SPEED", "path": "Movement", "fmt": { "len": 16, "max": 655.35, "div": 100, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"}
   ]},
-{ "hdr": "714", "rax": "7B0", "dbg": true, "cmd": {"22": "2613"}, "freq": 30,
+{ "hdr": "714", "dbg": true, "cmd": {"22": "2613"}, "freq": 30,
   "signals": [
     {"id": "ID4_IAT", "path": "Climate", "fmt": { "len": 16, "max": 255, "div": 10, "unit": "celsius" }, "name": "Interior air temperature"}
   ]},
-{ "hdr": "744", "rax": "7AE", "fcm1": true, "din": "03", "dbg": true, "cmd": {"22": "1507"}, "freq": 1,
+{ "hdr": "744", "rax": "7AE", "fcm1": true, "dbg": true, "cmd": {"22": "103D"}, "freq": 1,
+  "signals": [
+    {"id": "ID4_OBC_HVDC_C", "path": "Battery", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "amps" }, "name": "On-board charger, HV/DC current"}
+  ]},
+{ "hdr": "744", "rax": "7AE", "fcm1": true, "dbg": true, "cmd": {"22": "103E"}, "freq": 1,
+  "signals": [
+    {"id": "ID4_OBC_CYCLE_ENERGY", "path": "Battery", "fmt": { "len": 16, "max": 655.35, "div": 100, "unit": "kilowattHours" }, "name": "Cycle energy transformation"}
+  ]},
+{ "hdr": "744", "rax": "7AE", "fcm1": true, "dbg": true, "cmd": {"22": "1507"}, "freq": 1,
   "signals": [
     {"id": "ID4_CHRGR_RAIL1_E", "path": "Battery", "fmt": {           "len": 24, "max": 1677721, "div": 10, "unit": "kilowattHours" }, "name": "Rail 1 energy transformation"},
     {"id": "ID4_CHRGR_RAIL2_E", "path": "Battery", "fmt": {"bix": 24, "len": 24, "max": 1677721, "div": 10, "unit": "kilowattHours" }, "name": "Rail 2 energy transformation"},
     {"id": "ID4_CHRGR_RAIL3_E", "path": "Battery", "fmt": {"bix": 48, "len": 24, "max": 1677721, "div": 10, "unit": "kilowattHours" }, "name": "Rail 3 energy transformation"}
   ]},
-{ "hdr": "744", "rax": "7AE", "fcm1": true, "din": "03", "dbg": true, "cmd": {"22": "15D6"}, "freq": 1,
+{ "hdr": "744", "rax": "7AE", "fcm1": true, "dbg": true, "cmd": {"22": "1525"}, "freq": 1,
+  "signals": [
+    {"id": "ID4_OBC_VOLTAGE_PROX_A", "path": "Battery", "fmt": { "len": 16, "max": 65535, "unit": "millivolts" }, "name": "Voltage proximity, socket A"}
+  ]},
+{ "hdr": "744", "rax": "7AE", "fcm1": true, "dbg": true, "cmd": {"22": "15D6"}, "freq": 1,
   "signals": [
     {"id": "ID4_CHRGR_EFFICIENCY", "path": "Battery", "fmt": { "len": 8, "max": 100.5, "min": 75, "div": 10, "add": 75, "unit": "amps" }, "name": "Power efficiency"}
   ]},
-{ "hdr": "744", "rax": "7AE", "fcm1": true, "din": "03", "dbg": true, "cmd": {"22": "15E2"}, "freq": 1,
+{ "hdr": "744", "rax": "7AE", "fcm1": true, "dbg": true, "cmd": {"22": "15E2"}, "freq": 1,
   "signals": [
     {"id": "ID4_CHRGR_COOLANT_T", "path": "Battery", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Charger coolant temperature"}
   ]},
-{ "hdr": "744", "rax": "7AE", "fcm1": true, "din": "03", "dbg": true, "cmd": {"22": "15EE"}, "freq": 1,
+{ "hdr": "744", "rax": "7AE", "fcm1": true, "dbg": true, "cmd": {"22": "15EE"}, "freq": 1,
   "signals": [
     {"id": "ID4_CHRGR_DUR_TOTAL", "path": "Battery", "fmt": { "len": 32, "max": 4294967295, "unit": "minutes" }, "name": "Charging duration total"}
   ]},
-{ "hdr": "744", "rax": "7AE", "fcm1": true, "din": "03", "dbg": true, "cmd": {"22": "1DA7"}, "freq": 1,
+{ "hdr": "744", "rax": "7AE", "fcm1": true, "dbg": true, "cmd": {"22": "1DA7"}, "freq": 1,
   "signals": [
-    {"id": "ID4_CHRGR_V_OUT", "path": "Battery", "fmt": { "len": 8, "max": 255, "unit": "volts" }, "name": "HV charger output voltage"}
+    {"id": "ID4_OBC_HIGH_VOLTAGE_OUTPUT", "path": "Battery", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "volts" }, "name": "High voltage output"}
+  ]},
+{ "hdr": "744", "rax": "7AE", "fcm1": true, "dbg": true, "cmd": {"22": "1DDA"}, "freq": 1,
+  "signals": [
+    {"id": "ID4_OBC_SOCKET_A__T_SENSOR", "path": "Battery", "fmt": {"bix": 8, "len": 16, "max": 6498.5, "min": -55, "div": 10, "add": -55, "unit": "celsius" }, "name": "Temperature sensor, socket A"}
   ]},
 { "hdr": "746", "rax": "7B0", "fcm1": true, "dbg": true, "cmd": {"22": "2604"}, "freq": 1,
   "signals": [
@@ -145,6 +161,10 @@
     {"id": "ID4_GPS_SATS_VISIBLE", "path": "GPS", "fmt": {          "len": 8, "max": 255, "unit": "scalar" }, "name": "Satellites, visible"},
     {"id": "ID4_GPS_SATS_TRACKED", "path": "GPS", "fmt": {"bix": 8, "len": 8, "max": 255, "unit": "scalar" }, "name": "Satellites, tracked"}
   ]},
+{ "hdr": "FC00", "rax": "FE0076", "pri": "17", "tst": "76", "dbg": true, "cmd": {"22": "0346"}, "freq": 0.25,
+  "signals": [
+    {"id": "ID4_STEER_ANGLE", "path": "Control", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "degrees" }, "name": "Steering wheel angle"}
+  ]},
 { "hdr": "FC00", "rax": "FE0076", "pri": "17", "tst": "76", "dbg": true, "cmd": {"22": "3DEF"}, "freq": 1,
   "signals": [
     {"id": "ID4_SOC", "path": "Battery", "fmt": { "len": 16, "max": 100, "div": 100, "sign": true, "unit": "percent" }, "name": "State of charge", "suggestedMetric": "stateOfCharge"}
@@ -152,6 +172,24 @@
 { "hdr": "FC00", "rax": "FE007B", "pri": "17", "tst": "7B", "dbg": true, "cmd": {"22": "028C"}, "freq": 1,
   "signals": [
     {"id": "ID4_SOC_DISP", "path": "Battery", "fmt": { "len": 8, "max": 100, "mul": 20.4, "div": 46, "add": -6.4, "unit": "percent" }, "name": "State of charge, display", "suggestedMetric": "stateOfCharge"}
+  ]},
+{ "hdr": "FC00", "rax": "FE007B", "pri": "17", "tst": "7B", "dbg": true, "cmd": {"22": "1E0E"}, "freq": 1,
+  "signals": [
+    {"id": "ID4_HVBAT_T_MAX",    "path": "Battery", "fmt": {           "len": 16, "max": 511.984375, "min": -512, "div": 64, "sign": true, "unit": "celsius" }, "name": "Battery temperature, max"},
+    {"id": "ID4_HVBAT_T_MAX_ID", "path": "Battery", "fmt": {"bix": 16, "len": 16, "max": 65535,                                            "unit": "scalar"  }, "name": "Battery temperature, max sensor ID"}
+  ]},
+{ "hdr": "FC00", "rax": "FE007B", "pri": "17", "tst": "7B", "dbg": true, "cmd": {"22": "1E0F"}, "freq": 1,
+  "signals": [
+    {"id": "ID4_HVBAT_T_MIN",    "path": "Battery", "fmt": {           "len": 16, "max": 511.984375, "min": -512, "div": 64, "sign": true, "unit": "celsius" }, "name": "Battery temperature, min"},
+    {"id": "ID4_HVBAT_T_MIN_ID", "path": "Battery", "fmt": {"bix": 16, "len": 16, "max": 65535,                                            "unit": "scalar"  }, "name": "Battery temperature, min sensor ID"}
+  ]},
+{ "hdr": "FC00", "rax": "FE007B", "pri": "17", "tst": "7B", "dbg": true, "cmd": {"22": "F40D"}, "freq": 0.25,
+  "signals": [
+    {"id": "ID4_VSS", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Vehicle speed", "suggestedMetric": "speed"}
+  ]},
+{ "hdr": "FC00", "rax": "FE007C", "pri": "17", "tst": "7C", "dbg": true, "cmd": {"22": "086D"}, "freq": 5,
+  "signals": [
+    {"id": "ID4_ODO", "path": "Trips", "fmt": { "len": 32, "max": 4294967295, "unit": "kilometers" }, "name": "Odometer, electric drive", "suggestedMetric": "odometer"}
   ]}
 ]
 }
