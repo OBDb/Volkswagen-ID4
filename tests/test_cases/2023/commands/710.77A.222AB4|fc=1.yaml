@@ -7,6 +7,12 @@ test_cases:
     77A100D622AB4000000
     77A2179000000000029
 - expected_values:
+    ID4_HVBAT_CSMP_AVG_INT: 41
+    ID4_RANGE_RESERVE_EST: 208
+  response: |-
+    77A100D622AB4000000
+    77A21D0000000000029
+- expected_values:
     ID4_HVBAT_CSMP_AVG_INT: 40
     ID4_RANGE_RESERVE_EST: 218
   response: |-
