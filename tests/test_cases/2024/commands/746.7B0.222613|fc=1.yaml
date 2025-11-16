@@ -1,0 +1,14 @@
+command_id: 746.7B0.222613|fc=1
+test_cases:
+- expected_values:
+    ID4_HVAC_INTERIOR_T: 3.5
+  response: 7B0056226130023
+- expected_values:
+    ID4_HVAC_INTERIOR_T: 52
+  response: 7B0056226130208
+- expected_values:
+    ID4_HVAC_INTERIOR_T: -19.2
+  response: 7B005622613FF40
+- expected_values:
+    ID4_HVAC_INTERIOR_T: -0.1
+  response: 7B005622613FFFF

@@ -1,0 +1,23 @@
+command_id: 744.7AE.221507|fc=1,din=03
+test_cases:
+- expected_values:
+    ID4_CHRGR_RAIL1_E: 760.2
+    ID4_CHRGR_RAIL2_E: 764.1
+    ID4_CHRGR_RAIL3_E: 783
+  response: |-
+    7AE100C621507001DB2
+    7AE21001DD9001E96CC
+- expected_values:
+    ID4_CHRGR_RAIL1_E: 1830.7
+    ID4_CHRGR_RAIL2_E: 1832.7
+    ID4_CHRGR_RAIL3_E: 1843.7
+  response: |-
+    7AE100C621507004783
+    7AE21004797004805CC
+- expected_values:
+    ID4_CHRGR_RAIL1_E: 2481.2
+    ID4_CHRGR_RAIL2_E: 2490.7
+    ID4_CHRGR_RAIL3_E: 2481.3
+  response: |-
+    7AE100C6215070060EC
+    7AE2100614B0060EDCC

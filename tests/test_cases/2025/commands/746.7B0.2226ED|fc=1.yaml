@@ -1,0 +1,26 @@
+command_id: 746.7B0.2226ED|fc=1
+test_cases:
+- expected_values:
+    ID4_AIR_POLUTION: 0
+  response: 7B0046226ED00
+- expected_values:
+    ID4_AIR_POLUTION: 0.1
+  response: 7B0046226ED01
+- expected_values:
+    ID4_AIR_POLUTION: 0.2
+  response: 7B0046226ED02
+- expected_values:
+    ID4_AIR_POLUTION: 0.3
+  response: 7B0046226ED03
+- expected_values:
+    ID4_AIR_POLUTION: 0.4
+  response: 7B0046226ED04
+- expected_values:
+    ID4_AIR_POLUTION: 0.5
+  response: 7B0046226ED05
+- expected_values:
+    ID4_AIR_POLUTION: 1.3
+  response: 7B0046226ED0D
+- expected_values:
+    ID4_AIR_POLUTION: 1.4
+  response: 7B0046226ED0E

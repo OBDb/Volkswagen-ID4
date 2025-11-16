@@ -1,0 +1,14 @@
+command_id: 710.77A.222AB2|fc=1
+test_cases:
+- expected_values:
+    ID4_HVBAT_CAP: 71.79804
+    ID4_HVBAT_E_MAX: 71800
+  response: 77A07622AB2059C0400
+- expected_values:
+    ID4_HVBAT_CAP: 73.89796
+    ID4_HVBAT_E_MAX: 73900
+  response: 77A07622AB205C60400
+- expected_values:
+    ID4_HVBAT_CAP: 327.38829
+    ID4_HVBAT_E_MAX: 327400
+  response: 77A07622AB219940401
