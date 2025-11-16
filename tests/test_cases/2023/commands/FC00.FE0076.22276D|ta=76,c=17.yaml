@@ -1,0 +1,32 @@
+command_id: FC00.FE0076.22276D|ta=76,c=17
+test_cases:
+- expected_values:
+    ID4_COOLANT_CIRC_PUMP_DUTY: 20.56
+  response: 17FE00760562276D0808
+- expected_values:
+    ID4_COOLANT_CIRC_PUMP_DUTY: 30.8
+  response: 17FE00760562276D0C08
+- expected_values:
+    ID4_COOLANT_CIRC_PUMP_DUTY: 37.84
+  response: 17FE00760562276D0EC8
+- expected_values:
+    ID4_COOLANT_CIRC_PUMP_DUTY: 38.48
+  response: 17FE00760562276D0F08
+- expected_values:
+    ID4_COOLANT_CIRC_PUMP_DUTY: 41.05
+  response: 17FE00760562276D1009
+- expected_values:
+    ID4_COOLANT_CIRC_PUMP_DUTY: 44.24
+  response: 17FE00760562276D1148
+- expected_values:
+    ID4_COOLANT_CIRC_PUMP_DUTY: 44.57
+  response: 17FE00760562276D1169
+- expected_values:
+    ID4_COOLANT_CIRC_PUMP_DUTY: 45.52
+  response: 17FE00760562276D11C8
+- expected_values:
+    ID4_COOLANT_CIRC_PUMP_DUTY: 48.72
+  response: 17FE00760562276D1308
+- expected_values:
+    ID4_COOLANT_CIRC_PUMP_DUTY: 90
+  response: 17FE00760562276D2328

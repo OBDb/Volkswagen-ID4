@@ -1,0 +1,11 @@
+command_id: FC00.FE007B.221E36|ta=7B,c=17
+test_cases:
+- expected_values:
+    ID4_HVBAT_V_BEFORE: 361.43725
+  response: 17FE007B05621E362D2E
+- expected_values:
+    ID4_HVBAT_V_BEFORE: 367.87475
+  response: 17FE007B05621E362DFC
+- expected_values:
+    ID4_HVBAT_V_BEFORE: 368.06225
+  response: 17FE007B05621E362E02

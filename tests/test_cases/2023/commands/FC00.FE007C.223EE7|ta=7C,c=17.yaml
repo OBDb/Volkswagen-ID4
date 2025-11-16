@@ -1,0 +1,23 @@
+command_id: FC00.FE007C.223EE7|ta=7C,c=17
+test_cases:
+- expected_values:
+    ID4_MOTOR_MAXIMUM_I: 1000
+  response: 17FE007C07623EE744448000
+- expected_values:
+    ID4_MOTOR_MAXIMUM_I: 1000
+  response: 17FE007C07623EE74444A000
+- expected_values:
+    ID4_MOTOR_MAXIMUM_I: 1000
+  response: 17FE007C07623EE74444C000
+- expected_values:
+    ID4_MOTOR_MAXIMUM_I: 1000
+  response: 17FE007C07623EE74444E000
+- expected_values:
+    ID4_MOTOR_MAXIMUM_I: 1000
+  response: 17FE007C07623EE744450000
+- expected_values:
+    ID4_MOTOR_MAXIMUM_I: 1000
+  response: 17FE007C07623EE744452000
+- expected_values:
+    ID4_MOTOR_MAXIMUM_I: 1000
+  response: 17FE007C07623EE744454000

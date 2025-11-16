@@ -1,0 +1,11 @@
+command_id: FC00.FE0076.224539|ta=76,c=17
+test_cases:
+- expected_values:
+    ID4_ACCEL: 0
+  response: 17FE0076056245390000
+- expected_values:
+    ID4_ACCEL: 1.528
+  response: 17FE00760562453905F8
+- expected_values:
+    ID4_ACCEL: -0.256
+  response: 17FE007605624539FF00

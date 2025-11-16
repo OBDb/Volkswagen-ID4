@@ -1,0 +1,22 @@
+command_id: FC00.FE007B.221E34|ta=7B,c=17
+test_cases:
+- expected_values:
+    ID4_HVBAT_CELL_V_MIN: 15.997
+    ID4_HVBAT_CELL_V_MIN_ID: 73
+  response: 17FE007B07621E3438830049
+- expected_values:
+    ID4_HVBAT_CELL_V_MIN: 15.997
+    ID4_HVBAT_CELL_V_MIN_ID: 96
+  response: 17FE007B07621E3439D70060
+- expected_values:
+    ID4_HVBAT_CELL_V_MIN: 15.997
+    ID4_HVBAT_CELL_V_MIN_ID: 1
+  response: 17FE007B07621E3439EF0001
+- expected_values:
+    ID4_HVBAT_CELL_V_MIN: 15.997
+    ID4_HVBAT_CELL_V_MIN_ID: 6
+  response: 17FE007B07621E3439FC0006
+- expected_values:
+    ID4_HVBAT_CELL_V_MIN: 15.997
+    ID4_HVBAT_CELL_V_MIN_ID: 5
+  response: 17FE007B07621E343A000005

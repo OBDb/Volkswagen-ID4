@@ -1,0 +1,17 @@
+command_id: FC00.FE007C.220806|ta=7C,c=17
+test_cases:
+- expected_values:
+    ID4_ELDRIVE_ECU_T_2: 1000
+  response: 17FE007C0762080641BD632E
+- expected_values:
+    ID4_ELDRIVE_ECU_T_2: 1000
+  response: 17FE007C0762080641C8FD67
+- expected_values:
+    ID4_ELDRIVE_ECU_T_2: 1000
+  response: 17FE007C0762080641D1018F
+- expected_values:
+    ID4_ELDRIVE_ECU_T_2: 1000
+  response: 17FE007C0762080641E13FDF
+- expected_values:
+    ID4_ELDRIVE_ECU_T_2: 1000
+  response: 17FE007C0762080641E175E0

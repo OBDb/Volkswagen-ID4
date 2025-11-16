@@ -1,0 +1,12 @@
+command_id: FC00.FE007B.227448|ta=7B,c=17
+test_cases:
+- expected_values:
+    ID4_AC_CHARGING: 0
+    ID4_DRIVE_MODE: DRIVING
+    ID4_RAPID_CHARGE_PORT: 0
+  response: 17FE007B0462744801
+- expected_values:
+    ID4_AC_CHARGING: 1
+    ID4_DRIVE_MODE: STANDBY
+    ID4_RAPID_CHARGE_PORT: 0
+  response: 17FE007B0462744804

@@ -1,0 +1,22 @@
+command_id: 744.7AE.221DDA|fc=1
+test_cases:
+- expected_values:
+    ID4_OBC_T_A: 30
+  response: |-
+    7AE1008621DDA420352
+    7AE2103E9CCCCCCCCCC
+- expected_values:
+    ID4_OBC_T_A: 30
+  response: |-
+    7AE1008621DDA460352
+    7AE2103E8CCCCCCCCCC
+- expected_values:
+    ID4_OBC_T_A: 30
+  response: |-
+    7AE1008621DDA460352
+    7AE2103E9CCCCCCCCCC
+- expected_values:
+    ID4_OBC_T_A: 30
+  response: |-
+    7AE1008621DDA460352
+    7AE210400CCCCCCCCCC

@@ -1,0 +1,8 @@
+command_id: 746.7B0.222605|fc=1
+test_cases:
+- expected_values:
+    ID4_REFRIG_P: 5
+  response: 7B00462260519
+- expected_values:
+    ID4_REFRIG_P: 7.6
+  response: 7B00462260526

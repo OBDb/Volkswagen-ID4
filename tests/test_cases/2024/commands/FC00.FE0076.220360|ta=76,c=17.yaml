@@ -1,0 +1,11 @@
+command_id: FC00.FE0076.220360|ta=76,c=17
+test_cases:
+- expected_values:
+    ID4_HVAUX_I: 0.41
+  response: 17FE0076056203600029
+- expected_values:
+    ID4_HVAUX_I: 2.47
+  response: 17FE00760562036000F7
+- expected_values:
+    ID4_HVAUX_I: 2.75
+  response: 17FE0076056203600113

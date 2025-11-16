@@ -1,0 +1,17 @@
+command_id: FC00.FE007C.223E98|ta=7C,c=17
+test_cases:
+- expected_values:
+    ID4_DC_LINK_I: 0
+  response: 17FE007C07623E9800000000
+- expected_values:
+    ID4_DC_LINK_I: 1000
+  response: 17FE007C07623E983E59F239
+- expected_values:
+    ID4_DC_LINK_I: 1000
+  response: 17FE007C07623E98BF0AEFF3
+- expected_values:
+    ID4_DC_LINK_I: 1000
+  response: 17FE007C07623E98C0E97706
+- expected_values:
+    ID4_DC_LINK_I: 1000
+  response: 17FE007C07623E98C225667C
