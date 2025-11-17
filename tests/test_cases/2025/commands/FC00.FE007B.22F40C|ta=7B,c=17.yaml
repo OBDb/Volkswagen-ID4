@@ -1,0 +1,8 @@
+command_id: FC00.FE007B.22F40C|ta=7B,c=17
+test_cases:
+- expected_values:
+    ID4_ELDRIVE_MOTOR_RPM: 0
+  response: 17FE007B0562F40C0000
+- expected_values:
+    ID4_ELDRIVE_MOTOR_RPM: 1
+  response: 17FE007B0562F40C0004

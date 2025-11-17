@@ -5,7 +5,7 @@ test_cases:
   response: 17FE007C07623E9800000000
 - expected_values:
     ID4_DC_LINK_I: 1000
-  response: 17FE007C07623E983E59F239
+  response: 17FE007C07623E984268F8B0
 - expected_values:
     ID4_DC_LINK_I: 1000
   response: 17FE007C07623E98BF0AEFF3
@@ -14,4 +14,4 @@ test_cases:
   response: 17FE007C07623E98C0E97706
 - expected_values:
     ID4_DC_LINK_I: 1000
-  response: 17FE007C07623E98C225667C
+  response: 17FE007C07623E98C221CED9

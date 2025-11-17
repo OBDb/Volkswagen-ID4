@@ -21,6 +21,10 @@ test_cases:
     ID4_HVBAT_T_OUT: 23
   response: 17FE007B0762189D05C005C0
 - expected_values:
+    ID4_HVBAT_T_IN: 24
+    ID4_HVBAT_T_OUT: 23
+  response: 17FE007B0762189D05C00600
+- expected_values:
     ID4_HVBAT_T_IN: 23
     ID4_HVBAT_T_OUT: 24
   response: 17FE007B0762189D060005C0

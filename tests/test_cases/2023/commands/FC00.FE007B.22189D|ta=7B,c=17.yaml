@@ -1,6 +1,10 @@
 command_id: FC00.FE007B.22189D|ta=7B,c=17
 test_cases:
 - expected_values:
+    ID4_HVBAT_T_IN: 7
+    ID4_HVBAT_T_OUT: 7
+  response: 17FE007B0762189D01C001C0
+- expected_values:
     ID4_HVBAT_T_IN: 13
     ID4_HVBAT_T_OUT: 13
   response: 17FE007B0762189D03400340
@@ -12,3 +16,11 @@ test_cases:
     ID4_HVBAT_T_IN: 14
     ID4_HVBAT_T_OUT: 14
   response: 17FE007B0762189D03800380
+- expected_values:
+    ID4_HVBAT_T_IN: 19
+    ID4_HVBAT_T_OUT: 19
+  response: 17FE007B0762189D04C004C0
+- expected_values:
+    ID4_HVBAT_T_IN: 27
+    ID4_HVBAT_T_OUT: 27
+  response: 17FE007B0762189D06C006C0

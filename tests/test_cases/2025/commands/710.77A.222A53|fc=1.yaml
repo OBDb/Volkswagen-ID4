@@ -1,0 +1,51 @@
+command_id: 710.77A.222A53|fc=1
+test_cases:
+- expected_values:
+    ID4_DCDC_I: 23
+    ID4_DCDC_I_RSV: 218
+    ID4_DCDC_V_LOW: 15
+  response: |-
+    77A100A622A53960216
+    77A2102D90200AAAAAA
+- expected_values:
+    ID4_DCDC_I: 24
+    ID4_DCDC_I_RSV: 217
+    ID4_DCDC_V_LOW: 15
+  response: |-
+    77A100A622A53960217
+    77A2102D80200AAAAAA
+- expected_values:
+    ID4_DCDC_I: 24
+    ID4_DCDC_I_RSV: 218
+    ID4_DCDC_V_LOW: 15
+  response: |-
+    77A100A622A53960217
+    77A2102D90200AAAAAA
+- expected_values:
+    ID4_DCDC_I: 25
+    ID4_DCDC_I_RSV: 216
+    ID4_DCDC_V_LOW: 15
+  response: |-
+    77A100A622A53960218
+    77A2102D70200AAAAAA
+- expected_values:
+    ID4_DCDC_I: 25
+    ID4_DCDC_I_RSV: 217
+    ID4_DCDC_V_LOW: 15
+  response: |-
+    77A100A622A53960218
+    77A2102D80200AAAAAA
+- expected_values:
+    ID4_DCDC_I: 25
+    ID4_DCDC_I_RSV: 215
+    ID4_DCDC_V_LOW: 15.1
+  response: |-
+    77A100A622A53970218
+    77A2102D60200AAAAAA
+- expected_values:
+    ID4_DCDC_I: 26
+    ID4_DCDC_I_RSV: 214
+    ID4_DCDC_V_LOW: 15.1
+  response: |-
+    77A100A622A53970219
+    77A2102D50200AAAAAA

@@ -1,0 +1,14 @@
+command_id: 746.7B0.2242DB|fc=1
+test_cases:
+- expected_values:
+    ID4_CO2_CONTENT_INTERIOR: 600
+  response: 7B0056242DB0006
+- expected_values:
+    ID4_CO2_CONTENT_INTERIOR: 700
+  response: 7B0056242DB0007
+- expected_values:
+    ID4_CO2_CONTENT_INTERIOR: 800
+  response: 7B0056242DB0008
+- expected_values:
+    ID4_CO2_CONTENT_INTERIOR: 900
+  response: 7B0056242DB0009

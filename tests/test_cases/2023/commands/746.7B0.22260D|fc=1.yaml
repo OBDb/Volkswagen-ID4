@@ -1,23 +1,8 @@
 command_id: 746.7B0.22260D|fc=1
 test_cases:
 - expected_values:
-    ID4_FRONT_RIGHT_DEFL_T: 41.292
-  response: 7B00462260D7C
+    ID4_FRONT_RIGHT_DEFL_T: 35.298
+  response: 7B00462260D6A
 - expected_values:
-    ID4_FRONT_RIGHT_DEFL_T: 41.958
-  response: 7B00462260D7E
-- expected_values:
-    ID4_FRONT_RIGHT_DEFL_T: 42.624
-  response: 7B00462260D80
-- expected_values:
-    ID4_FRONT_RIGHT_DEFL_T: 43.29
-  response: 7B00462260D82
-- expected_values:
-    ID4_FRONT_RIGHT_DEFL_T: 43.956
-  response: 7B00462260D84
-- expected_values:
-    ID4_FRONT_RIGHT_DEFL_T: 44.622
-  response: 7B00462260D86
-- expected_values:
-    ID4_FRONT_RIGHT_DEFL_T: 45.288
-  response: 7B00462260D88
+    ID4_FRONT_RIGHT_DEFL_T: 45.954
+  response: 7B00462260D8A

@@ -1,6 +1,13 @@
 command_id: 710.77A.222A53|fc=1
 test_cases:
 - expected_values:
+    ID4_DCDC_I: 0
+    ID4_DCDC_I_RSV: 0
+    ID4_DCDC_V_LOW: 12
+  response: |-
+    77A1008622A537801FF
+    77A2101FFAAAAAAAAAA
+- expected_values:
     ID4_DCDC_I: 15
     ID4_DCDC_I_RSV: 241
     ID4_DCDC_V_LOW: 13.5
@@ -15,27 +22,6 @@ test_cases:
     77A1008622A538A0209
     77A2102FEAAAAAAAAAA
 - expected_values:
-    ID4_DCDC_I: 12
-    ID4_DCDC_I_RSV: 240
-    ID4_DCDC_V_LOW: 14.6
-  response: |-
-    77A1008622A5392020B
-    77A2102EFAAAAAAAAAA
-- expected_values:
-    ID4_DCDC_I: 34
-    ID4_DCDC_I_RSV: 208
-    ID4_DCDC_V_LOW: 14.7
-  response: |-
-    77A1008622A53930221
-    77A2102CFAAAAAAAAAA
-- expected_values:
-    ID4_DCDC_I: 45
-    ID4_DCDC_I_RSV: 219
-    ID4_DCDC_V_LOW: 14.7
-  response: |-
-    77A1008622A5393022C
-    77A2102DAAAAAAAAAAA
-- expected_values:
     ID4_DCDC_I: 24
     ID4_DCDC_I_RSV: 241
     ID4_DCDC_V_LOW: 14.8
@@ -45,13 +31,6 @@ test_cases:
     77A100A622AB6008200
     77A2182000001AAAAAA
 - expected_values:
-    ID4_DCDC_I: 16
-    ID4_DCDC_I_RSV: 241
-    ID4_DCDC_V_LOW: 15
-  response: |-
-    77A1008622A5396020F
-    77A2102F0AAAAAAAAAA
-- expected_values:
     ID4_DCDC_I: 18
     ID4_DCDC_I_RSV: 239
     ID4_DCDC_V_LOW: 15
@@ -60,3 +39,10 @@ test_cases:
     77A2102EEAAAAAAAAAA
     77A100A622AB6008B00
     77A218B000011AAAAAA
+- expected_values:
+    ID4_DCDC_I: 26
+    ID4_DCDC_I_RSV: 239
+    ID4_DCDC_V_LOW: 15.1
+  response: |-
+    77A1008622A53970219
+    77A2102EEAAAAAAAAAA

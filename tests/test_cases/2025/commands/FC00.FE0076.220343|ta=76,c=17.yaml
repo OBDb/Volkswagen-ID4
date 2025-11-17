@@ -1,0 +1,8 @@
+command_id: FC00.FE0076.220343|ta=76,c=17
+test_cases:
+- expected_values:
+    ID4_MOTOR_TRQ_DIFF: 9
+  response: 17FE0076056203430012
+- expected_values:
+    ID4_MOTOR_TRQ_DIFF: 10
+  response: 17FE0076056203430014

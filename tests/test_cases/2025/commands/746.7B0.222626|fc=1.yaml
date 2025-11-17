@@ -1,0 +1,11 @@
+command_id: 746.7B0.222626|fc=1
+test_cases:
+- expected_values:
+    ID4_FRONT_RIGHT_T_FLAP_ACT: 100
+  response: '7B0 06 62 26 26 03 41 C8 '
+- expected_values:
+    ID4_FRONT_RIGHT_T_FLAP_ACT: 100
+  response: 7B0066226260340C8
+- expected_values:
+    ID4_FRONT_RIGHT_T_FLAP_ACT: 100
+  response: 7B0066226260341C8

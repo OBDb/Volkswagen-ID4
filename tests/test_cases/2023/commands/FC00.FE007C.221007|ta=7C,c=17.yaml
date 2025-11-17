@@ -8,6 +8,9 @@ test_cases:
   response: 17FE007C0762100734F9F5F6
 - expected_values:
     ID4_MOTOR_V_D_ACT: 1000
+  response: 17FE007C076210074020F719
+- expected_values:
+    ID4_MOTOR_V_D_ACT: 1000
   response: 17FE007C07621007B402C9DC
 - expected_values:
     ID4_MOTOR_V_D_ACT: 1000
@@ -17,7 +20,7 @@ test_cases:
   response: 17FE007C07621007B6265AF7
 - expected_values:
     ID4_MOTOR_V_D_ACT: 1000
-  response: 17FE007C07621007C203309B
+  response: 17FE007C07621007C25F015A
 - expected_values:
     ID4_MOTOR_V_D_ACT: 1000
-  response: 17FE007C07621007C25F015A
+  response: 17FE007C07621007C31652B9
