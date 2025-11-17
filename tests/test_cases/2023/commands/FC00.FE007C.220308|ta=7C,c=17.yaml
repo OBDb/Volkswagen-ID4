@@ -14,7 +14,7 @@ test_cases:
   response: 17FE007C07620308BC67FC06
 - expected_values:
     ID4_CALC_FROM_MEAS_IS: 1000
-  response: 17FE007C07620308BCEF8606
+  response: 17FE007C07620308C0FFEA80
 - expected_values:
     ID4_CALC_FROM_MEAS_IS: 1000
   response: 17FE007C07620308C1936AFE

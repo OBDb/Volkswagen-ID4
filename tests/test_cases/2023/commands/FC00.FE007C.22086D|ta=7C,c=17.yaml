@@ -1,26 +1,11 @@
 command_id: FC00.FE007C.22086D|ta=7C,c=17
 test_cases:
 - expected_values:
+    ID4_ODO: 26648
+  response: 17FE007C0762086D00006818
+- expected_values:
     ID4_ODO: 46705
   response: 17FE007C0762086D0000B671
-- expected_values:
-    ID4_ODO: 46706
-  response: 17FE007C0762086D0000B672
-- expected_values:
-    ID4_ODO: 46707
-  response: 17FE007C0762086D0000B673
-- expected_values:
-    ID4_ODO: 46708
-  response: 17FE007C0762086D0000B674
-- expected_values:
-    ID4_ODO: 46709
-  response: 17FE007C0762086D0000B675
-- expected_values:
-    ID4_ODO: 46710
-  response: 17FE007C0762086D0000B676
-- expected_values:
-    ID4_ODO: 46711
-  response: 17FE007C0762086D0000B677
 - expected_values:
     ID4_ODO: 46712
   response: 17FE007C0762086D0000B678

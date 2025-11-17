@@ -1,0 +1,8 @@
+command_id: 710.77A.222AB4|fc=1
+test_cases:
+- expected_values:
+    ID4_HVBAT_CSMP_AVG_INT: 61
+    ID4_RANGE_RESERVE_EST: 161
+  response: |-
+    77A100D622AB4000000
+    77A21A100000000003D

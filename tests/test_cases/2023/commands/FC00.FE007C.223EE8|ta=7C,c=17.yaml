@@ -2,7 +2,10 @@ command_id: FC00.FE007C.223EE8|ta=7C,c=17
 test_cases:
 - expected_values:
     ID4_MOTOR_MINIMUM_I: 1000
-  response: 17FE007C07623EE8C3B90000
+  response: 17FE007C07623EE8C34C8000
+- expected_values:
+    ID4_MOTOR_MINIMUM_I: 1000
+  response: 17FE007C07623EE8C34D0000
 - expected_values:
     ID4_MOTOR_MINIMUM_I: 1000
   response: 17FE007C07623EE8C3BAC000

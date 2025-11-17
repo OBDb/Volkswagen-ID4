@@ -11,10 +11,10 @@ test_cases:
   response: 17FE007C07621008400116BB
 - expected_values:
     ID4_MOTOR_V_Q_ACT: 1000
-  response: 17FE007C07621008411F0E6B
+  response: 17FE007C0762100841A5D3F6
 - expected_values:
     ID4_MOTOR_V_Q_ACT: 1000
-  response: 17FE007C0762100841A5D3F6
+  response: 17FE007C0762100842E2065A
 - expected_values:
     ID4_MOTOR_V_Q_ACT: 1000
   response: 17FE007C07621008B917F454

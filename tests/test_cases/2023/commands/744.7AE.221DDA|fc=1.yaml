@@ -19,4 +19,24 @@ test_cases:
     ID4_OBC_T_A: 30
   response: |-
     7AE1008621DDA460352
+    7AE2103FFCCCCCCCCCC
+- expected_values:
+    ID4_OBC_T_A: 30
+  response: |-
+    7AE1008621DDA460352
     7AE210400CCCCCCCCCC
+- expected_values:
+    ID4_OBC_T_A: 30
+  response: |-
+    7AE1008621DDA460352
+    7AE210402CCCCCCCCCC
+- expected_values:
+    ID4_OBC_T_A: 30
+  response: |-
+    7AE1008621DDA860352
+    7AE2103F6CCCCCCCCCC
+- expected_values:
+    ID4_OBC_T_A: 30
+  response: |-
+    7AE1008621DDA860352
+    7AE2103F7CCCCCCCCCC

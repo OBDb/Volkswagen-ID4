@@ -1,0 +1,5 @@
+command_id: FC00.FE0076.223DF8|ta=76,c=17
+test_cases:
+- expected_values:
+    ID4_MOTOR_RPM: 0
+  response: 17FE007605623DF80000

@@ -1,0 +1,8 @@
+command_id: 746.7B0.222620|fc=1
+test_cases:
+- expected_values:
+    ID4_RECIRC_FLAP_STOP_FRESH: 160
+  response: '7B0 05 62 26 20 00 A0 '
+- expected_values:
+    ID4_RECIRC_FLAP_STOP_FRESH: 160
+  response: 7B00562262000A0

@@ -1,0 +1,5 @@
+command_id: 746.7B0.222605|fc=1
+test_cases:
+- expected_values:
+    ID4_REFRIG_P: 51
+  response: 7B004622605FF

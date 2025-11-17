@@ -3,3 +3,18 @@ test_cases:
 - expected_values:
     ID4_MOTOR_TRQ_DIFF: 0
   response: 17FE0076056203430000
+- expected_values:
+    ID4_MOTOR_TRQ_DIFF: 204
+  response: 17FE0076056203430198
+- expected_values:
+    ID4_MOTOR_TRQ_DIFF: 516
+  response: 17FE0076056203430408
+- expected_values:
+    ID4_MOTOR_TRQ_DIFF: -276
+  response: 17FE007605620343FDD8
+- expected_values:
+    ID4_MOTOR_TRQ_DIFF: -161
+  response: 17FE007605620343FEBE
+- expected_values:
+    ID4_MOTOR_TRQ_DIFF: -65
+  response: 17FE007605620343FF7E

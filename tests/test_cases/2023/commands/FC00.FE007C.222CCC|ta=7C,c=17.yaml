@@ -2,7 +2,7 @@ command_id: FC00.FE007C.222CCC|ta=7C,c=17
 test_cases:
 - expected_values:
     ID4_ROTOR_T_MODEL: 1000
-  response: 17FE007C07622CCC41ABF7E3
+  response: 17FE007C07622CCC41347FEA
 - expected_values:
     ID4_ROTOR_T_MODEL: 1000
   response: 17FE007C07622CCC41B1FAFF

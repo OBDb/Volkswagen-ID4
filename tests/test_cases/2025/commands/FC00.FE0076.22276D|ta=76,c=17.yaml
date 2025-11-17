@@ -1,0 +1,8 @@
+command_id: FC00.FE0076.22276D|ta=76,c=17
+test_cases:
+- expected_values:
+    ID4_COOLANT_CIRC_PUMP_DUTY: 58.64
+  response: 17FE00760562276D16E8
+- expected_values:
+    ID4_COOLANT_CIRC_PUMP_DUTY: 58.97
+  response: 17FE00760562276D1709

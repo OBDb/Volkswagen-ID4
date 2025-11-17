@@ -1,0 +1,14 @@
+command_id: FC00.FE007B.221E0E|ta=7B,c=17
+test_cases:
+- expected_values:
+    ID4_HVBAT_T_MAX: 10.5
+    ID4_HVBAT_T_MAX_ID: 9
+  response: 17FE007B07621E0E02A00009
+- expected_values:
+    ID4_HVBAT_T_MAX: 10.5
+    ID4_HVBAT_T_MAX_ID: 10
+  response: 17FE007B07621E0E02A0000A
+- expected_values:
+    ID4_HVBAT_T_MAX: 10.625
+    ID4_HVBAT_T_MAX_ID: 10
+  response: 17FE007B07621E0E02A8000A
