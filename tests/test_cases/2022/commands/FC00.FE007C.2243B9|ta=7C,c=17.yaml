@@ -1,0 +1,17 @@
+command_id: FC00.FE007C.2243B9|ta=7C,c=17
+test_cases:
+- expected_values:
+    ID4_DC_LINK_V_RESERVE: 1000
+  response: 17FE007C076243B943AE0C6C
+- expected_values:
+    ID4_DC_LINK_V_RESERVE: 1000
+  response: 17FE007C076243B943B05305
+- expected_values:
+    ID4_DC_LINK_V_RESERVE: 1000
+  response: 17FE007C076243B943B1FE45
+- expected_values:
+    ID4_DC_LINK_V_RESERVE: 1000
+  response: 17FE007C076243B943B2D6FD
+- expected_values:
+    ID4_DC_LINK_V_RESERVE: 1000
+  response: 17FE007C076243B943B5221E

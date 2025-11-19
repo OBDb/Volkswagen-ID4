@@ -1,0 +1,11 @@
+command_id: FC00.FE007C.223EE7|ta=7C,c=17
+test_cases:
+- expected_values:
+    ID4_MOTOR_MAXIMUM_I: 1000
+  response: 17FE007C07623EE743C50000
+- expected_values:
+    ID4_MOTOR_MAXIMUM_I: 1000
+  response: 17FE007C07623EE743CBC000
+- expected_values:
+    ID4_MOTOR_MAXIMUM_I: 1000
+  response: 17FE007C07623EE743E18000

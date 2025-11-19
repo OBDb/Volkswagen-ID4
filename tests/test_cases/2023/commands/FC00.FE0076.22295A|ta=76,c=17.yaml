@@ -1,6 +1,9 @@
 command_id: FC00.FE0076.22295A|ta=76,c=17
 test_cases:
 - expected_values:
+    ID4_ENG_ODO: 24880
+  response: 17FE00760662295A006130
+- expected_values:
     ID4_ENG_ODO: 26648
   response: 17FE00760662295A006818
 - expected_values:
@@ -9,3 +12,6 @@ test_cases:
 - expected_values:
     ID4_ENG_ODO: 46704
   response: 17FE00760662295A00B670
+- expected_values:
+    ID4_ENG_ODO: 71837
+  response: 17FE00760662295A01189D

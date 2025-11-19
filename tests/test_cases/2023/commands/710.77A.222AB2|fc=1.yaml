@@ -2,10 +2,10 @@ command_id: 710.77A.222AB2|fc=1
 test_cases:
 - expected_values:
     ID4_HVBAT_CAP: 68
-  response: 77A07622AB205500401
+  response: 77A07622AB205500400
 - expected_values:
-    ID4_HVBAT_CAP: 69.55
-  response: 77A07622AB2056F0400
+    ID4_HVBAT_CAP: 68
+  response: 77A07622AB205500401
 - expected_values:
     ID4_HVBAT_CAP: 72.5
   response: |-

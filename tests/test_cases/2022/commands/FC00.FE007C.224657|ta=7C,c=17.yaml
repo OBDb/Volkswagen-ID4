@@ -1,0 +1,23 @@
+command_id: FC00.FE007C.224657|ta=7C,c=17
+test_cases:
+- expected_values:
+    ID4_ELDRIVE_MOTOR_FREQ: 1000
+  response: 17FE007C076246573C17A390
+- expected_values:
+    ID4_ELDRIVE_MOTOR_FREQ: 1000
+  response: 17FE007C0762465744031A13
+- expected_values:
+    ID4_ELDRIVE_MOTOR_FREQ: 1000
+  response: 17FE007C0762465744320E00
+- expected_values:
+    ID4_ELDRIVE_MOTOR_FREQ: 1000
+  response: 17FE007C0762465744E5FEAE
+- expected_values:
+    ID4_ELDRIVE_MOTOR_FREQ: 1000
+  response: 17FE007C07624657450E4AFF
+- expected_values:
+    ID4_ELDRIVE_MOTOR_FREQ: 1000
+  response: 17FE007C07624657BC901130
+- expected_values:
+    ID4_ELDRIVE_MOTOR_FREQ: 1000
+  response: 17FE007C07624657BCFD02C8

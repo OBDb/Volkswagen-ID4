@@ -8,7 +8,10 @@ test_cases:
   response: 17FE007C0762467241A20000
 - expected_values:
     ID4_MOTOR_T: 1000
-  response: 17FE007C0762467241A3B6DC
+  response: 17FE007C0762467241EE0865
 - expected_values:
     ID4_MOTOR_T: 1000
-  response: 17FE007C0762467241CAF369
+  response: 17FE007C07624672420D5195
+- expected_values:
+    ID4_MOTOR_T: 1000
+  response: 17FE007C07624672421297EA

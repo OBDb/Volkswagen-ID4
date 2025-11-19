@@ -1,0 +1,18 @@
+command_id: FC00.FE007B.22189D|ta=7B,c=17
+test_cases:
+- expected_values:
+    ID4_HVBAT_T_IN: 6
+    ID4_HVBAT_T_OUT: 6
+  response: 17FE007B0762189D01800180
+- expected_values:
+    ID4_HVBAT_T_IN: 7
+    ID4_HVBAT_T_OUT: 6
+  response: 17FE007B0762189D018001C0
+- expected_values:
+    ID4_HVBAT_T_IN: 7
+    ID4_HVBAT_T_OUT: 7
+  response: 17FE007B0762189D01C001C0
+- expected_values:
+    ID4_HVBAT_T_IN: 8
+    ID4_HVBAT_T_OUT: 7
+  response: 17FE007B0762189D01C00200
