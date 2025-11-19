@@ -6,3 +6,24 @@ test_cases:
 - expected_values:
     ID4_HVBAT_CELL_V_068: 3.644
   response: 17FE007B05621E830A54
+- expected_values:
+    ID4_HVBAT_CELL_V_068: 4.032
+  response: 17FE007B05621E830BD8
+- expected_values:
+    ID4_HVBAT_CELL_V_068: 4.044
+  response: 17FE007B05621E830BE4
+- expected_values:
+    ID4_HVBAT_CELL_V_068: 4.045
+  response: 17FE007B05621E830BE5
+- expected_values:
+    ID4_HVBAT_CELL_V_068: 4.049
+  response: 17FE007B05621E830BE9
+- expected_values:
+    ID4_HVBAT_CELL_V_068: 4.05
+  response: 17FE007B05621E830BEA
+- expected_values:
+    ID4_HVBAT_CELL_V_068: 4.051
+  response: 17FE007B05621E830BEB
+- expected_values:
+    ID4_HVBAT_CELL_V_068: 4.053
+  response: 17FE007B05621E830BED

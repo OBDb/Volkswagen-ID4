@@ -1,0 +1,8 @@
+command_id: FC00.FE007C.22086D|ta=7C,c=17
+test_cases:
+- expected_values:
+    ID4_ODO: 68542
+  response: 17FE007C0762086D00010BBE
+- expected_values:
+    ID4_ODO: 68553
+  response: 17FE007C0762086D00010BC9

@@ -4,5 +4,5 @@ test_cases:
     ID4_APP_D: 0
   response: 7B00462F44900
 - expected_values:
-    ID4_APP_D: 54.11765
-  response: 7B00462F4498A
+    ID4_APP_D: 100
+  response: 7B00462F449FF

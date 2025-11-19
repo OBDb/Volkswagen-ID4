@@ -1,0 +1,5 @@
+command_id: 746.7B0.222626|fc=1
+test_cases:
+- expected_values:
+    ID4_FRONT_RIGHT_T_FLAP_ACT: 15.5
+  response: 7B00662262600481F

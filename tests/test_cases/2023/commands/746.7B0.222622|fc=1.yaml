@@ -4,5 +4,5 @@ test_cases:
     ID4_FRONT_LEFT_T_FLAP_ACT: 0
   response: 7B006622622002C00
 - expected_values:
-    ID4_FRONT_LEFT_T_FLAP_ACT: 98
-  response: 7B00662262200CBC4
+    ID4_FRONT_LEFT_T_FLAP_ACT: 99
+  response: 7B00662262200CCC6

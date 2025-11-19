@@ -15,3 +15,6 @@ test_cases:
 - expected_values:
     ID4_ELDRIVE_ECU_T_2: 1000
   response: 17FE007C0762080641E175E0
+- expected_values:
+    ID4_ELDRIVE_ECU_T_2: 1000
+  response: 17FE007C07620806421A7878

@@ -1,0 +1,11 @@
+command_id: FC00.FE00B9.22465B|ta=B9,c=17
+test_cases:
+- expected_values:
+    ID4_DCDC_I_ALT: 14.125
+  response: 17FE00B90562465B00E2
+- expected_values:
+    ID4_DCDC_I_ALT: 31.8125
+  response: 17FE00B90562465B01FD
+- expected_values:
+    ID4_DCDC_I_ALT: 32.4375
+  response: 17FE00B90562465B0207

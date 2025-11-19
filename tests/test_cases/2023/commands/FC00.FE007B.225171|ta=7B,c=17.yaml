@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     ID4_MAXIMUM_CHARGE_V: 403
   response: 17FE007B056251710193
+- expected_values:
+    ID4_MAXIMUM_CHARGE_V: 408
+  response: 17FE007B056251710198

@@ -8,6 +8,12 @@ test_cases:
     7B010086227C475A1B1
     7B021B480AAAAAAAAAA
 - expected_values:
+    ID4_HVAC_INSIDE_HUM: 64
+    ID4_WNDSHLD_TEMP: 25.712
+  response: |-
+    7B010086227C470A061
+    7B021A080AAAAAAAAAA
+- expected_values:
     ID4_HVAC_INSIDE_HUM: 66.5
     ID4_WNDSHLD_TEMP: 28.016
   response: |-

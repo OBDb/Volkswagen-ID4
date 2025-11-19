@@ -1,6 +1,9 @@
 command_id: 746.7B0.222621|fc=1
 test_cases:
 - expected_values:
+    ID4_RECIRC_FLAP_STOP_RECIRC: 214
+  response: 7B00562262100D6
+- expected_values:
     ID4_RECIRC_FLAP_STOP_RECIRC: 215
   response: 7B00562262100D7
 - expected_values:

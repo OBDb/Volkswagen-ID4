@@ -1,0 +1,17 @@
+command_id: FC00.FE007C.224672|ta=7C,c=17
+test_cases:
+- expected_values:
+    ID4_MOTOR_T: 1000
+  response: 17FE007C0762467240E07D64
+- expected_values:
+    ID4_MOTOR_T: 1000
+  response: 17FE007C0762467241114E5E
+- expected_values:
+    ID4_MOTOR_T: 1000
+  response: 17FE007C07624672415143FA
+- expected_values:
+    ID4_MOTOR_T: 1000
+  response: 17FE007C076246724187F30A
+- expected_values:
+    ID4_MOTOR_T: 1000
+  response: 17FE007C0762467241B20000
