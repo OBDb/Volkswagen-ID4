@@ -5,17 +5,17 @@ test_cases:
     ID4_HVBAT_T_MIN_ID: 18
   response: 17FE007B07621E0F00C00012
 - expected_values:
-    ID4_HVBAT_T_MIN: 7.625
-    ID4_HVBAT_T_MIN_ID: 17
-  response: 17FE007B07621E0F01E80011
-- expected_values:
     ID4_HVBAT_T_MIN: 13.75
     ID4_HVBAT_T_MIN_ID: 1
   response: 17FE007B07621E0F03700001
 - expected_values:
-    ID4_HVBAT_T_MIN: 20.25
+    ID4_HVBAT_T_MIN: 15.875
     ID4_HVBAT_T_MIN_ID: 24
-  response: 17FE007B07621E0F05100018
+  response: 17FE007B07621E0F03F80018
+- expected_values:
+    ID4_HVBAT_T_MIN: 16
+    ID4_HVBAT_T_MIN_ID: 24
+  response: 17FE007B07621E0F04000018
 - expected_values:
     ID4_HVBAT_T_MIN: 25
     ID4_HVBAT_T_MIN_ID: 4
