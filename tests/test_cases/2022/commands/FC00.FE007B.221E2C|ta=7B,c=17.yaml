@@ -1,6 +1,10 @@
 command_id: FC00.FE007B.221E2C|ta=7B,c=17
 test_cases:
 - expected_values:
+    ID4_HVBAT_CELL_SOC_MAX: 50.85
+    ID4_HVBAT_CELL_SOC_MAX_ID: 49
+  response: 17FE007B07621E2C13DD0031
+- expected_values:
     ID4_HVBAT_CELL_SOC_MAX: 51.23
     ID4_HVBAT_CELL_SOC_MAX_ID: 65
   response: 17FE007B07621E2C14030041

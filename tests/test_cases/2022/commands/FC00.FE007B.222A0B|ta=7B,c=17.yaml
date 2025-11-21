@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     ID4_BATTERY_T: 6.5
   response: 17FE007B04622A0B5D
+- expected_values:
+    ID4_BATTERY_T: 7
+  response: 17FE007B04622A0B5E

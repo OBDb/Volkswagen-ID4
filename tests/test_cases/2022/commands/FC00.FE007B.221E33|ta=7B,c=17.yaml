@@ -3,7 +3,7 @@ test_cases:
 - expected_values:
     ID4_HVBAT_CELL_V_MAX: 15.997
     ID4_HVBAT_CELL_V_MAX_ID: 5
-  response: 17FE007B07621E333A930005
+  response: 17FE007B07621E3339DF0005
 - expected_values:
     ID4_HVBAT_CELL_V_MAX: 15.997
     ID4_HVBAT_CELL_V_MAX_ID: 1
@@ -14,8 +14,8 @@ test_cases:
   response: 17FE007B07621E333AFE0002
 - expected_values:
     ID4_HVBAT_CELL_V_MAX: 15.997
-    ID4_HVBAT_CELL_V_MAX_ID: 1
-  response: 17FE007B07621E333B060001
+    ID4_HVBAT_CELL_V_MAX_ID: 11
+  response: 17FE007B07621E333B02000B
 - expected_values:
     ID4_HVBAT_CELL_V_MAX: 15.997
     ID4_HVBAT_CELL_V_MAX_ID: 78

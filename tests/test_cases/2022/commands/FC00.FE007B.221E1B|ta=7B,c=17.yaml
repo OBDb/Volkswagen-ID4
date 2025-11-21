@@ -4,5 +4,5 @@ test_cases:
     ID4_HVBAT_I_LIM_CHG: 262.8
   response: 17FE007B05621E1B0522
 - expected_values:
-    ID4_HVBAT_I_LIM_CHG: 271.2
-  response: 17FE007B05621E1B054C
+    ID4_HVBAT_I_LIM_CHG: 278.8
+  response: 17FE007B05621E1B0572
