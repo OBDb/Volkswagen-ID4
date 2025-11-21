@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     ID4_CHRGR_EFFICIENCY: 75
   response: 7AE046215D600
+- expected_values:
+    ID4_CHRGR_EFFICIENCY: 84.5
+  response: 7AE046215D65F

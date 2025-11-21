@@ -17,4 +17,4 @@ test_cases:
   response: 17FE007C07623E9343B902A6
 - expected_values:
     ID4_DC_LINK_V: 1000
-  response: 17FE007C07623E9343BA3370
+  response: 17FE007C07623E9343BD27A9

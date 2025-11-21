@@ -1,8 +1,8 @@
 command_id: 744.7AE.2215EE|fc=1
 test_cases:
 - expected_values:
-    ID4_CHRGR_DUR_TOTAL: 46755
-  response: 7AE076215EE0000B6A3
+    ID4_CHRGR_DUR_TOTAL: 33988
+  response: 7AE076215EE000084C4
 - expected_values:
     ID4_CHRGR_DUR_TOTAL: 58535
   response: 7AE076215EE0000E4A7
@@ -13,20 +13,5 @@ test_cases:
     ID4_CHRGR_DUR_TOTAL: 91697
   response: 7AE076215EE00016631
 - expected_values:
-    ID4_CHRGR_DUR_TOTAL: 92231
-  response: 7AE076215EE00016847
-- expected_values:
-    ID4_CHRGR_DUR_TOTAL: 92471
-  response: 7AE076215EE00016937
-- expected_values:
     ID4_CHRGR_DUR_TOTAL: 92922
   response: 7AE076215EE00016AFA
-- expected_values:
-    ID4_CHRGR_DUR_TOTAL: 102486
-  response: 7AE076215EE00019056
-- expected_values:
-    ID4_CHRGR_DUR_TOTAL: 102497
-  response: 7AE076215EE00019061
-- expected_values:
-    ID4_CHRGR_DUR_TOTAL: 118875
-  response: 7AE076215EE0001D05B
