@@ -1,8 +1,8 @@
 command_id: FC00.FE007B.22028C|ta=7B,c=17
 test_cases:
 - expected_values:
-    ID4_SOC_DISP: 28.63478
-  response: 17FE007B0462028C4F
+    ID4_SOC_DISP: 26.41739
+  response: 17FE007B0462028C4A
 - expected_values:
     ID4_SOC_DISP: 60.12174
   response: 17FE007B0462028C96
