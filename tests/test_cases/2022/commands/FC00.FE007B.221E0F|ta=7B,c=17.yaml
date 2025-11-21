@@ -24,3 +24,11 @@ test_cases:
     ID4_HVBAT_T_MIN: 6.75
     ID4_HVBAT_T_MIN_ID: 8
   response: 17FE007B07621E0F01B00008
+- expected_values:
+    ID4_HVBAT_T_MIN: 7.125
+    ID4_HVBAT_T_MIN_ID: 13
+  response: 17FE007B07621E0F01C8000D
+- expected_values:
+    ID4_HVBAT_T_MIN: 7.25
+    ID4_HVBAT_T_MIN_ID: 13
+  response: 17FE007B07621E0F01D0000D

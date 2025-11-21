@@ -15,3 +15,9 @@ test_cases:
 - expected_values:
     ID4_HVBAT_MOD_T_11: 7
   response: 17FE007B05621EB80178
+- expected_values:
+    ID4_HVBAT_MOD_T_11: 7.5
+  response: 17FE007B05621EB8017C
+- expected_values:
+    ID4_HVBAT_MOD_T_11: 7.625
+  response: 17FE007B05621EB8017D
