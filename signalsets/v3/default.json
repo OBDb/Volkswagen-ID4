@@ -978,7 +978,7 @@
   ]},
 { "hdr": "FC00", "rax": "FE007B", "fcm1": true, "dbg": true, "cmd": {"22": "5867"}, "freq": 1,
   "signals": [
-    {"id": "ID4_ODO_BMS2", "path": "Trips", "fmt": {"bix": 16, "len": 16, "max": 655350, "mul": 10, "unit": "kilometers" }, "name": "Odometer, BMS #2"}
+    {"id": "ID4_ODO_BMS2", "path": "Trips", "fmt": {"bix": 16, "len": 16, "max": 655350, "mul": 10, "unit": "kilometers" }, "name": "Odometer, BMS #2", "suggestedMetric": "odometer"}
   ]},
 { "hdr": "FC00", "rax": "FE007B", "pri": "17", "tst": "7C", "cmd": {"22": "58E1"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2024 },
   "signals": [
