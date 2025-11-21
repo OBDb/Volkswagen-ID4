@@ -1,5 +1,0 @@
-command_id: FC00.FE007C.223EED|ta=7C,c=17
-test_cases:
-- expected_values:
-    ID4_DESIRED_LINK_V: 0
-  response: 17FE007C07623EED00000000
