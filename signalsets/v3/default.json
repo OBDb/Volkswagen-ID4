@@ -273,6 +273,54 @@
   "signals": [
     {"id": "ID4_SOC_DISP", "path": "Battery", "fmt": { "len": 8, "max": 100, "mul": 20.4, "div": 46, "add": -6.4, "unit": "percent" }, "name": "State of charge, display", "suggestedMetric": "stateOfCharge"}
   ]},
+{ "hdr": "FC00", "rax": "FE007B", "fcm1": true, "dbg": true, "cmd": {"22": "02BD"}, "freq": 1,
+  "signals": [
+    {"id": "ID4_BMS_ODO", "path": "Trips", "fmt": {"bix": 8, "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer, BMS"}
+  ]},
+{ "hdr": "FC00", "rax": "FE007B", "pri": "17", "tst": "7C", "cmd": {"22": "0308"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2024 },
+  "signals": [
+    {"id": "ID4_CALC_FROM_MEAS_IS", "path": "Drivetrain", "fmt": { "len": 32, "max": 1000, "unit": "newtonMeters" }, "name": "Torque, calculated from measured currents"}
+  ]},
+{ "hdr": "FC00", "rax": "FE007B", "pri": "17", "tst": "7C", "cmd": {"22": "0805"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2024 },
+  "signals": [
+    {"id": "ID4_ELDRIVE_ECU_T_1", "path": "Drivetrain", "fmt": { "len": 32, "max": 1000, "unit": "celsius" }, "name": "Electric drive ECU temperature 1"}
+  ]},
+{ "hdr": "FC00", "rax": "FE007B", "pri": "17", "tst": "7C", "cmd": {"22": "0806"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2024 },
+  "signals": [
+    {"id": "ID4_ELDRIVE_ECU_T_2", "path": "Drivetrain", "fmt": { "len": 32, "max": 1000, "unit": "celsius" }, "name": "Electric drive ECU temperature 2"}
+  ]},
+{ "hdr": "FC00", "rax": "FE007B", "pri": "17", "tst": "7C", "cmd": {"22": "086D"}, "freq": 5, "dbgfilter": { "to": 2021, "from": 2024 },
+  "signals": [
+    {"id": "ID4_ODO", "path": "Trips", "fmt": { "len": 32, "max": 4294967295, "unit": "kilometers" }, "name": "Odometer, electric drive", "suggestedMetric": "odometer"}
+  ]},
+{ "hdr": "FC00", "rax": "FE007B", "pri": "17", "tst": "7C", "cmd": {"22": "1007"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2024 },
+  "signals": [
+    {"id": "ID4_MOTOR_V_D_ACT", "path": "Drivetrain", "fmt": { "len": 32, "max": 1000, "unit": "volts" }, "name": "Motor voltage, d-axis actual"}
+  ]},
+{ "hdr": "FC00", "rax": "FE007B", "pri": "17", "tst": "7C", "cmd": {"22": "1008"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2024 },
+  "signals": [
+    {"id": "ID4_MOTOR_V_Q_ACT", "path": "Drivetrain", "fmt": { "len": 32, "max": 1000, "unit": "volts" }, "name": "Motor voltage, q-axis actual"}
+  ]},
+{ "hdr": "FC00", "rax": "FE007B", "pri": "17", "tst": "7C", "cmd": {"22": "1009"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2024 },
+  "signals": [
+    {"id": "ID4_MOTOR_V_D_CMD", "path": "Drivetrain", "fmt": { "len": 32, "max": 1000, "unit": "volts" }, "name": "Motor voltage, d-axis commanded"}
+  ]},
+{ "hdr": "FC00", "rax": "FE007B", "pri": "17", "tst": "7C", "cmd": {"22": "100A"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2024 },
+  "signals": [
+    {"id": "ID4_MOTOR_V_Q_CMD", "path": "Drivetrain", "fmt": { "len": 32, "max": 1000, "unit": "volts" }, "name": "Motor voltage, q-axis commanded"}
+  ]},
+{ "hdr": "FC00", "rax": "FE007B", "pri": "17", "tst": "7C", "cmd": {"22": "1040"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2024 },
+  "signals": [
+    {"id": "ID4_INVERTER_PWR_LOSS_PHASE_U", "path": "Drivetrain", "fmt": { "len": 32, "max": 1000, "unit": "watts" }, "name": "Inverter power loss phase u"}
+  ]},
+{ "hdr": "FC00", "rax": "FE007B", "pri": "17", "tst": "7C", "cmd": {"22": "1041"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2024 },
+  "signals": [
+    {"id": "ID4_INVERTER_PWR_LOSS_PHASE_V", "path": "Drivetrain", "fmt": { "len": 32, "max": 1000, "unit": "watts" }, "name": "Inverter power loss phase v"}
+  ]},
+{ "hdr": "FC00", "rax": "FE007B", "pri": "17", "tst": "7C", "cmd": {"22": "1042"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2024 },
+  "signals": [
+    {"id": "ID4_INVERTER_PWR_LOSS_PHASE_W", "path": "Drivetrain", "fmt": { "len": 32, "max": 1000, "unit": "watts" }, "name": "Inverter power loss phase w"}
+  ]},
 { "hdr": "FC00", "rax": "FE007B", "pri": "17", "tst": "7B", "cmd": {"22": "1620"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2026 },
   "signals": [
     {"id": "ID4_HVBAT_PTC_I", "path": "Battery", "fmt": { "len": 8, "max": 63.75, "div": 4, "unit": "amps" }, "name": "Battery heater current"}
@@ -864,6 +912,62 @@
   "signals": [
     {"id": "ID4_BATTERY_T", "path": "Battery", "fmt": { "len": 8, "max": 87.5, "min": -40, "div": 2, "add": -40, "unit": "celsius" }, "name": "Temperature, battery"}
   ]},
+{ "hdr": "FC00", "rax": "FE007B", "pri": "17", "tst": "7C", "cmd": {"22": "2CCC"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2024 },
+  "signals": [
+    {"id": "ID4_ROTOR_T_MODEL", "path": "Engine", "fmt": { "len": 32, "max": 1000, "unit": "celsius" }, "name": "Rotor temperature model"}
+  ]},
+{ "hdr": "FC00", "rax": "FE007B", "pri": "17", "tst": "7C", "cmd": {"22": "3E93"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2024 },
+  "signals": [
+    {"id": "ID4_DC_LINK_V", "path": "Battery", "fmt": { "len": 32, "max": 1000, "unit": "volts" }, "name": "DC link voltage"}
+  ]},
+{ "hdr": "FC00", "rax": "FE007B", "pri": "17", "tst": "7C", "cmd": {"22": "3E98"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2024 },
+  "signals": [
+    {"id": "ID4_DC_LINK_I", "path": "Drivetrain", "fmt": { "len": 32, "max": 1000, "unit": "amps" }, "name": "DC link current"}
+  ]},
+{ "hdr": "FC00", "rax": "FE007B", "pri": "17", "tst": "7C", "cmd": {"22": "3EE7"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2024 },
+  "signals": [
+    {"id": "ID4_MOTOR_MAXIMUM_I", "path": "Drivetrain", "fmt": { "len": 32, "max": 1000, "unit": "amps" }, "name": "Motor maximum current"}
+  ]},
+{ "hdr": "FC00", "rax": "FE007B", "pri": "17", "tst": "7C", "cmd": {"22": "3EE8"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2024 },
+  "signals": [
+    {"id": "ID4_MOTOR_MINIMUM_I", "path": "Drivetrain", "fmt": { "len": 32, "max": 1000, "unit": "amps" }, "name": "Motor minimum current"}
+  ]},
+{ "hdr": "FC00", "rax": "FE007B", "pri": "17", "tst": "7C", "cmd": {"22": "3EE9"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2024 },
+  "signals": [
+    {"id": "ID4_ACTUAL_MECHANICAL_TORQUE_CALC", "path": "Drivetrain", "fmt": { "len": 32, "max": 1000, "unit": "newtonMeters" }, "name": "Actual mechanical torque calculated"}
+  ]},
+{ "hdr": "FC00", "rax": "FE007B", "pri": "17", "tst": "7C", "cmd": {"22": "3EEA"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2024 },
+  "signals": [
+    {"id": "ID4_ACTUAL_POSSIBLE_MAXIMUM_TORQUE", "path": "Drivetrain", "fmt": { "len": 32, "max": 1000, "unit": "newtonMeters" }, "name": "Actual possible maximum torque"}
+  ]},
+{ "hdr": "FC00", "rax": "FE007B", "pri": "17", "tst": "7C", "cmd": {"22": "3EEB"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2024 },
+  "signals": [
+    {"id": "ID4_ACTUAL_POSSIBLE_MINIMUM_TORQUE", "path": "Drivetrain", "fmt": { "len": 32, "max": 1000, "unit": "newtonMeters" }, "name": "Actual possible minimum torque"}
+  ]},
+{ "hdr": "FC00", "rax": "FE007B", "pri": "17", "tst": "7C", "cmd": {"22": "3EED"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2024 },
+  "signals": [
+    {"id": "ID4_DESIRED_LINK_V", "path": "Battery", "fmt": { "len": 32, "max": 1000, "unit": "volts" }, "name": "Desired link voltage"}
+  ]},
+{ "hdr": "FC00", "rax": "FE007B", "pri": "17", "tst": "7C", "cmd": {"22": "40C8"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2024 },
+  "signals": [
+    {"id": "ID4_ELDRIVE_MOTOR_RAD_SEC", "path": "Movement", "fmt": { "len": 32, "max": 1000, "unit": "scalar" }, "name": "Electric drive motor speed (rad/sec)"}
+  ]},
+{ "hdr": "FC00", "rax": "FE007B", "pri": "17", "tst": "7C", "cmd": {"22": "43B9"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2024 },
+  "signals": [
+    {"id": "ID4_DC_LINK_V_RESERVE", "path": "Battery", "fmt": { "len": 32, "max": 1000, "unit": "volts" }, "name": "DC link voltage reserve"}
+  ]},
+{ "hdr": "FC00", "rax": "FE007B", "pri": "17", "tst": "7C", "cmd": {"22": "4657"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2024 },
+  "signals": [
+    {"id": "ID4_ELDRIVE_MOTOR_FREQ", "path": "Drivetrain", "fmt": { "len": 32, "max": 1000, "unit": "scalar" }, "name": "Motor electrical frequency (rad/sec)"}
+  ]},
+{ "hdr": "FC00", "rax": "FE007B", "pri": "17", "tst": "7C", "cmd": {"22": "4672"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2024 },
+  "signals": [
+    {"id": "ID4_MOTOR_T", "path": "Engine", "fmt": { "len": 32, "max": 1000, "unit": "celsius" }, "name": "Temperature, motor"}
+  ]},
+{ "hdr": "FC00", "rax": "FE007B", "pri": "17", "tst": "7C", "cmd": {"22": "4FAE"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2024 },
+  "signals": [
+    {"id": "ID4_ELEC_DRIVE_INFLOW_COOLANT_T", "path": "Engine", "fmt": { "len": 32, "max": 1000, "unit": "celsius" }, "name": "Temperature, electric drive inflow coolant"}
+  ]},
 { "hdr": "FC00", "rax": "FE007B", "pri": "17", "tst": "7B", "cmd": {"22": "5170"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2026 },
   "signals": [
     {"id": "ID4_MINIMUM_DISCHARGE_V", "path": "Battery", "fmt": { "len": 16, "max": 65535, "unit": "volts" }, "name": "Discharge voltage, min"}
@@ -872,9 +976,13 @@
   "signals": [
     {"id": "ID4_MAXIMUM_CHARGE_V", "path": "Battery", "fmt": { "len": 16, "max": 65535, "unit": "volts" }, "name": "Charge voltage, max"}
   ]},
-{ "hdr": "FC00", "rax": "FE007B", "pri": "17", "tst": "7B", "dbg": true, "cmd": {"22": "5867"}, "freq": 1,
+{ "hdr": "FC00", "rax": "FE007B", "fcm1": true, "dbg": true, "cmd": {"22": "5867"}, "freq": 1,
   "signals": [
-    {"id": "ID4_ODO_2", "path": "Trips", "fmt": {"bix": 16, "len": 16, "max": 655350, "mul": 10, "unit": "kilometers" }, "name": "Odometer #2", "suggestedMetric": "odometer"}
+    {"id": "ID4_ODO_BMS2", "path": "Trips", "fmt": {"bix": 16, "len": 16, "max": 655350, "mul": 10, "unit": "kilometers" }, "name": "Odometer, BMS #2"}
+  ]},
+{ "hdr": "FC00", "rax": "FE007B", "pri": "17", "tst": "7C", "cmd": {"22": "58E1"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2024 },
+  "signals": [
+    {"id": "ID4_ACTUAL_MECHANICAL_TORQUE_CMD_VALUE", "path": "Drivetrain", "fmt": { "len": 32, "max": 1000, "unit": "newtonMeters" }, "name": "Actual mechanical torque commanded"}
   ]},
 { "hdr": "FC00", "rax": "FE007B", "pri": "17", "tst": "7B", "cmd": {"22": "7425"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2026 },
   "signals": [
@@ -929,110 +1037,6 @@
 { "hdr": "FC00", "rax": "FE007B", "pri": "17", "tst": "7B", "cmd": {"22": "F40D"}, "freq": 0.25, "dbgfilter": { "to": 2021, "from": 2026 },
   "signals": [
     {"id": "ID4_VSS", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Vehicle speed", "suggestedMetric": "speed"}
-  ]},
-{ "hdr": "FC00", "rax": "FE007C", "pri": "17", "tst": "7C", "cmd": {"22": "0308"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2024 },
-  "signals": [
-    {"id": "ID4_CALC_FROM_MEAS_IS", "path": "Drivetrain", "fmt": { "len": 32, "max": 1000, "unit": "newtonMeters" }, "name": "Torque, calculated from measured currents"}
-  ]},
-{ "hdr": "FC00", "rax": "FE007C", "pri": "17", "tst": "7C", "cmd": {"22": "0805"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2024 },
-  "signals": [
-    {"id": "ID4_ELDRIVE_ECU_T_1", "path": "Drivetrain", "fmt": { "len": 32, "max": 1000, "unit": "celsius" }, "name": "Electric drive ECU temperature 1"}
-  ]},
-{ "hdr": "FC00", "rax": "FE007C", "pri": "17", "tst": "7C", "cmd": {"22": "0806"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2024 },
-  "signals": [
-    {"id": "ID4_ELDRIVE_ECU_T_2", "path": "Drivetrain", "fmt": { "len": 32, "max": 1000, "unit": "celsius" }, "name": "Electric drive ECU temperature 2"}
-  ]},
-{ "hdr": "FC00", "rax": "FE007C", "pri": "17", "tst": "7C", "cmd": {"22": "086D"}, "freq": 5, "dbgfilter": { "to": 2021, "from": 2024 },
-  "signals": [
-    {"id": "ID4_ODO", "path": "Trips", "fmt": { "len": 32, "max": 4294967295, "unit": "kilometers" }, "name": "Odometer, electric drive", "suggestedMetric": "odometer"}
-  ]},
-{ "hdr": "FC00", "rax": "FE007C", "pri": "17", "tst": "7C", "cmd": {"22": "1007"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2024 },
-  "signals": [
-    {"id": "ID4_MOTOR_V_D_ACT", "path": "Drivetrain", "fmt": { "len": 32, "max": 1000, "unit": "volts" }, "name": "Motor voltage, d-axis actual"}
-  ]},
-{ "hdr": "FC00", "rax": "FE007C", "pri": "17", "tst": "7C", "cmd": {"22": "1008"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2024 },
-  "signals": [
-    {"id": "ID4_MOTOR_V_Q_ACT", "path": "Drivetrain", "fmt": { "len": 32, "max": 1000, "unit": "volts" }, "name": "Motor voltage, q-axis actual"}
-  ]},
-{ "hdr": "FC00", "rax": "FE007C", "pri": "17", "tst": "7C", "cmd": {"22": "1009"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2024 },
-  "signals": [
-    {"id": "ID4_MOTOR_V_D_CMD", "path": "Drivetrain", "fmt": { "len": 32, "max": 1000, "unit": "volts" }, "name": "Motor voltage, d-axis commanded"}
-  ]},
-{ "hdr": "FC00", "rax": "FE007C", "pri": "17", "tst": "7C", "cmd": {"22": "100A"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2024 },
-  "signals": [
-    {"id": "ID4_MOTOR_V_Q_CMD", "path": "Drivetrain", "fmt": { "len": 32, "max": 1000, "unit": "volts" }, "name": "Motor voltage, q-axis commanded"}
-  ]},
-{ "hdr": "FC00", "rax": "FE007C", "pri": "17", "tst": "7C", "cmd": {"22": "1040"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2024 },
-  "signals": [
-    {"id": "ID4_INVERTER_PWR_LOSS_PHASE_U", "path": "Drivetrain", "fmt": { "len": 32, "max": 1000, "unit": "watts" }, "name": "Inverter power loss phase u"}
-  ]},
-{ "hdr": "FC00", "rax": "FE007C", "pri": "17", "tst": "7C", "cmd": {"22": "1041"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2024 },
-  "signals": [
-    {"id": "ID4_INVERTER_PWR_LOSS_PHASE_V", "path": "Drivetrain", "fmt": { "len": 32, "max": 1000, "unit": "watts" }, "name": "Inverter power loss phase v"}
-  ]},
-{ "hdr": "FC00", "rax": "FE007C", "pri": "17", "tst": "7C", "cmd": {"22": "1042"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2024 },
-  "signals": [
-    {"id": "ID4_INVERTER_PWR_LOSS_PHASE_W", "path": "Drivetrain", "fmt": { "len": 32, "max": 1000, "unit": "watts" }, "name": "Inverter power loss phase w"}
-  ]},
-{ "hdr": "FC00", "rax": "FE007C", "pri": "17", "tst": "7C", "cmd": {"22": "2CCC"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2024 },
-  "signals": [
-    {"id": "ID4_ROTOR_T_MODEL", "path": "Engine", "fmt": { "len": 32, "max": 1000, "unit": "celsius" }, "name": "Rotor temperature model"}
-  ]},
-{ "hdr": "FC00", "rax": "FE007C", "pri": "17", "tst": "7C", "cmd": {"22": "3E93"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2024 },
-  "signals": [
-    {"id": "ID4_DC_LINK_V", "path": "Battery", "fmt": { "len": 32, "max": 1000, "unit": "volts" }, "name": "DC link voltage"}
-  ]},
-{ "hdr": "FC00", "rax": "FE007C", "pri": "17", "tst": "7C", "cmd": {"22": "3E98"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2024 },
-  "signals": [
-    {"id": "ID4_DC_LINK_I", "path": "Drivetrain", "fmt": { "len": 32, "max": 1000, "unit": "amps" }, "name": "DC link current"}
-  ]},
-{ "hdr": "FC00", "rax": "FE007C", "pri": "17", "tst": "7C", "cmd": {"22": "3EE7"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2024 },
-  "signals": [
-    {"id": "ID4_MOTOR_MAXIMUM_I", "path": "Drivetrain", "fmt": { "len": 32, "max": 1000, "unit": "amps" }, "name": "Motor maximum current"}
-  ]},
-{ "hdr": "FC00", "rax": "FE007C", "pri": "17", "tst": "7C", "cmd": {"22": "3EE8"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2024 },
-  "signals": [
-    {"id": "ID4_MOTOR_MINIMUM_I", "path": "Drivetrain", "fmt": { "len": 32, "max": 1000, "unit": "amps" }, "name": "Motor minimum current"}
-  ]},
-{ "hdr": "FC00", "rax": "FE007C", "pri": "17", "tst": "7C", "cmd": {"22": "3EE9"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2024 },
-  "signals": [
-    {"id": "ID4_ACTUAL_MECHANICAL_TORQUE_CALC", "path": "Drivetrain", "fmt": { "len": 32, "max": 1000, "unit": "newtonMeters" }, "name": "Actual mechanical torque calculated"}
-  ]},
-{ "hdr": "FC00", "rax": "FE007C", "pri": "17", "tst": "7C", "cmd": {"22": "3EEA"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2024 },
-  "signals": [
-    {"id": "ID4_ACTUAL_POSSIBLE_MAXIMUM_TORQUE", "path": "Drivetrain", "fmt": { "len": 32, "max": 1000, "unit": "newtonMeters" }, "name": "Actual possible maximum torque"}
-  ]},
-{ "hdr": "FC00", "rax": "FE007C", "pri": "17", "tst": "7C", "cmd": {"22": "3EEB"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2024 },
-  "signals": [
-    {"id": "ID4_ACTUAL_POSSIBLE_MINIMUM_TORQUE", "path": "Drivetrain", "fmt": { "len": 32, "max": 1000, "unit": "newtonMeters" }, "name": "Actual possible minimum torque"}
-  ]},
-{ "hdr": "FC00", "rax": "FE007C", "pri": "17", "tst": "7C", "cmd": {"22": "3EED"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2024 },
-  "signals": [
-    {"id": "ID4_DESIRED_LINK_V", "path": "Battery", "fmt": { "len": 32, "max": 1000, "unit": "volts" }, "name": "Desired link voltage"}
-  ]},
-{ "hdr": "FC00", "rax": "FE007C", "pri": "17", "tst": "7C", "cmd": {"22": "40C8"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2024 },
-  "signals": [
-    {"id": "ID4_ELDRIVE_MOTOR_RAD_SEC", "path": "Movement", "fmt": { "len": 32, "max": 1000, "unit": "scalar" }, "name": "Electric drive motor speed (rad/sec)"}
-  ]},
-{ "hdr": "FC00", "rax": "FE007C", "pri": "17", "tst": "7C", "cmd": {"22": "43B9"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2024 },
-  "signals": [
-    {"id": "ID4_DC_LINK_V_RESERVE", "path": "Battery", "fmt": { "len": 32, "max": 1000, "unit": "volts" }, "name": "DC link voltage reserve"}
-  ]},
-{ "hdr": "FC00", "rax": "FE007C", "pri": "17", "tst": "7C", "cmd": {"22": "4657"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2024 },
-  "signals": [
-    {"id": "ID4_ELDRIVE_MOTOR_FREQ", "path": "Drivetrain", "fmt": { "len": 32, "max": 1000, "unit": "scalar" }, "name": "Motor electrical frequency (rad/sec)"}
-  ]},
-{ "hdr": "FC00", "rax": "FE007C", "pri": "17", "tst": "7C", "cmd": {"22": "4672"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2024 },
-  "signals": [
-    {"id": "ID4_MOTOR_T", "path": "Engine", "fmt": { "len": 32, "max": 1000, "unit": "celsius" }, "name": "Temperature, motor"}
-  ]},
-{ "hdr": "FC00", "rax": "FE007C", "pri": "17", "tst": "7C", "cmd": {"22": "4FAE"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2024 },
-  "signals": [
-    {"id": "ID4_ELEC_DRIVE_INFLOW_COOLANT_T", "path": "Engine", "fmt": { "len": 32, "max": 1000, "unit": "celsius" }, "name": "Temperature, electric drive inflow coolant"}
-  ]},
-{ "hdr": "FC00", "rax": "FE007C", "pri": "17", "tst": "7C", "cmd": {"22": "58E1"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2024 },
-  "signals": [
-    {"id": "ID4_ACTUAL_MECHANICAL_TORQUE_CMD_VALUE", "path": "Drivetrain", "fmt": { "len": 32, "max": 1000, "unit": "newtonMeters" }, "name": "Actual mechanical torque commanded"}
   ]},
 { "hdr": "FC00", "rax": "FE00B9", "pri": "17", "tst": "B9", "cmd": {"22": "465B"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2024 },
   "signals": [
