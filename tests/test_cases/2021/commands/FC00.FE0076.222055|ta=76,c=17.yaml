@@ -1,0 +1,8 @@
+command_id: FC00.FE0076.222055|ta=76,c=17
+test_cases:
+- expected_values:
+    ID4_RADIATOR_FAN_DUTY: 38.28
+  response: 17FE0076056220550EF4
+- expected_values:
+    ID4_RADIATOR_FAN_DUTY: 39.84
+  response: 17FE0076056220550F90

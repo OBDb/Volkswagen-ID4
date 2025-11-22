@@ -1,0 +1,14 @@
+command_id: 746.7B0.222613|fc=1
+test_cases:
+- expected_values:
+    ID4_HVAC_IAT: 30.2
+  response: 7B005622613012E
+- expected_values:
+    ID4_HVAC_IAT: 30.3
+  response: 7B005622613012F
+- expected_values:
+    ID4_HVAC_IAT: 30.4
+  response: 7B0056226130130
+- expected_values:
+    ID4_HVAC_IAT: 30.6
+  response: 7B0056226130132
