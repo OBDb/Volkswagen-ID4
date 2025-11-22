@@ -4,20 +4,5 @@ test_cases:
     ID4_HVBAT_MOD_T_10: 6.5
   response: 17FE007B05621EB70174
 - expected_values:
-    ID4_HVBAT_MOD_T_10: 6.625
-  response: 17FE007B05621EB70175
-- expected_values:
-    ID4_HVBAT_MOD_T_10: 6.75
-  response: 17FE007B05621EB70176
-- expected_values:
-    ID4_HVBAT_MOD_T_10: 6.875
-  response: 17FE007B05621EB70177
-- expected_values:
-    ID4_HVBAT_MOD_T_10: 7
-  response: 17FE007B05621EB70178
-- expected_values:
-    ID4_HVBAT_MOD_T_10: 7.5
-  response: 17FE007B05621EB7017C
-- expected_values:
-    ID4_HVBAT_MOD_T_10: 7.625
-  response: 17FE007B05621EB7017D
+    ID4_HVBAT_MOD_T_10: 8.75
+  response: 17FE007B05621EB70186

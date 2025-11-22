@@ -9,3 +9,15 @@ test_cases:
 - expected_values:
     ID4_FRONT_LEFT_DEFL_T: 32.634
   response: 7B00462260C62
+- expected_values:
+    ID4_FRONT_LEFT_DEFL_T: 33.3
+  response: 7B00462260C64
+- expected_values:
+    ID4_FRONT_LEFT_DEFL_T: 33.966
+  response: 7B00462260C66
+- expected_values:
+    ID4_FRONT_LEFT_DEFL_T: 34.632
+  response: 7B00462260C68
+- expected_values:
+    ID4_FRONT_LEFT_DEFL_T: 35.298
+  response: 7B00462260C6A

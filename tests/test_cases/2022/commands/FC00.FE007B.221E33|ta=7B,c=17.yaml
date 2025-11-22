@@ -7,7 +7,7 @@ test_cases:
 - expected_values:
     ID4_HVBAT_CELL_V_MAX: 15.997
     ID4_HVBAT_CELL_V_MAX_ID: 1
-  response: 17FE007B07621E333AC00001
+  response: 17FE007B07621E333A870001
 - expected_values:
     ID4_HVBAT_CELL_V_MAX: 15.997
     ID4_HVBAT_CELL_V_MAX_ID: 2
