@@ -1,0 +1,8 @@
+command_id: 746.7B0.222622|fc=1
+test_cases:
+- expected_values:
+    ID4_FRONT_LEFT_T_FLAP_ACT: 48
+  response: 7B006622622007A60
+- expected_values:
+    ID4_FRONT_LEFT_T_FLAP_ACT: 49.5
+  response: 7B006622622007C63
