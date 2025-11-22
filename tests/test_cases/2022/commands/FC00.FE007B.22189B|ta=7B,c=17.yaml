@@ -1,8 +1,8 @@
 command_id: FC00.FE007B.22189B|ta=7B,c=17
 test_cases:
 - expected_values:
-    ID4_HVBAT_AFTER_CONTACTS_V: 350
-  response: 17FE007B0562189B0A8C
+    ID4_HVBAT_AFTER_CONTACTS_V: 348
+  response: 17FE007B0562189B0A88
 - expected_values:
     ID4_HVBAT_AFTER_CONTACTS_V: 360
   response: 17FE007B0562189B0AA0

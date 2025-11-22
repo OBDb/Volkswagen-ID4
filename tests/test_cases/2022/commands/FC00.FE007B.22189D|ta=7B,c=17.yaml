@@ -16,3 +16,27 @@ test_cases:
     ID4_HVBAT_T_IN: 8
     ID4_HVBAT_T_OUT: 7
   response: 17FE007B0762189D01C00200
+- expected_values:
+    ID4_HVBAT_T_IN: 8
+    ID4_HVBAT_T_OUT: 8
+  response: 17FE007B0762189D02000200
+- expected_values:
+    ID4_HVBAT_T_IN: 9
+    ID4_HVBAT_T_OUT: 8
+  response: 17FE007B0762189D02000240
+- expected_values:
+    ID4_HVBAT_T_IN: 9
+    ID4_HVBAT_T_OUT: 9
+  response: 17FE007B0762189D02400240
+- expected_values:
+    ID4_HVBAT_T_IN: 10
+    ID4_HVBAT_T_OUT: 9
+  response: 17FE007B0762189D02400280
+- expected_values:
+    ID4_HVBAT_T_IN: 10
+    ID4_HVBAT_T_OUT: 10
+  response: 17FE007B0762189D02800280
+- expected_values:
+    ID4_HVBAT_T_IN: 10
+    ID4_HVBAT_T_OUT: 11
+  response: 17FE007B0762189D02C00280

@@ -1,6 +1,9 @@
 command_id: 744.7AE.221525|fc=1
 test_cases:
 - expected_values:
+    ID4_OBC_V_PROX_A: 4430
+  response: 7AE05621525114E
+- expected_values:
     ID4_OBC_V_PROX_A: 4437
   response: 7AE056215251155
 - expected_values:
@@ -9,3 +12,6 @@ test_cases:
 - expected_values:
     ID4_OBC_V_PROX_A: 4451
   response: 7AE056215251163
+- expected_values:
+    ID4_OBC_V_PROX_A: 4458
+  response: 7AE05621525116A

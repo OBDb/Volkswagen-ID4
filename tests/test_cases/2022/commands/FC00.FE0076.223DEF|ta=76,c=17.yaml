@@ -1,32 +1,11 @@
 command_id: FC00.FE0076.223DEF|ta=76,c=17
 test_cases:
 - expected_values:
-    ID4_SOC: 50.5
-  response: 17FE007605623DEF13BA
+    ID4_SOC: 41
+  response: 17FE007605623DEF1004
 - expected_values:
-    ID4_SOC: 51
-  response: 17FE007605623DEF13EC
-- expected_values:
-    ID4_SOC: 51.5
-  response: 17FE007605623DEF141E
-- expected_values:
-    ID4_SOC: 52
-  response: 17FE007605623DEF1450
-- expected_values:
-    ID4_SOC: 52.5
-  response: 17FE007605623DEF1482
-- expected_values:
-    ID4_SOC: 53
-  response: 17FE007605623DEF14B4
-- expected_values:
-    ID4_SOC: 53.5
-  response: 17FE007605623DEF14E6
+    ID4_SOC: 43.5
+  response: 17FE007605623DEF10FE
 - expected_values:
     ID4_SOC: 54
   response: 17FE007605623DEF1518
-- expected_values:
-    ID4_SOC: 54.5
-  response: 17FE007605623DEF154A
-- expected_values:
-    ID4_SOC: 55
-  response: 17FE007605623DEF157C
