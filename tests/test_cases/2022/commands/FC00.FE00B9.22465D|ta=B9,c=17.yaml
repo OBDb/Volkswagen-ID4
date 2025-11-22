@@ -4,8 +4,8 @@ test_cases:
     ID4_DC_DC_V: 13.55469
   response: 17FE00B90562465D1B1C
 - expected_values:
-    ID4_DC_DC_V: 14.97461
-  response: 17FE00B90562465D1DF3
+    ID4_DC_DC_V: 14.99609
+  response: 17FE00B90562465D1DFE
 - expected_values:
-    ID4_DC_DC_V: 15.03125
-  response: 17FE00B90562465D1E10
+    ID4_DC_DC_V: 15.00977
+  response: 17FE00B90562465D1E05
