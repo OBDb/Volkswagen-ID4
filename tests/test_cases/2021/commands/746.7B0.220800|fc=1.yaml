@@ -1,6 +1,12 @@
 command_id: 746.7B0.220800|fc=1
 test_cases:
 - expected_values:
+    ID4_AC_COMPRESSOR_PWR_ACT: 0
+  response: |-
+    7B0100E620800100000
+    7B02100000000005E00
+    7B0225CAAAAAAAAAAAA
+- expected_values:
     ID4_AC_COMPRESSOR_PWR_ACT: 549
   response: |-
     7B0100E620800511240
@@ -11,12 +17,6 @@ test_cases:
   response: |-
     7B0100E6208005112C0
     7B02112C002DC045B80
-    7B02266AAAAAAAAAAAA
-- expected_values:
-    ID4_AC_COMPRESSOR_PWR_ACT: 549
-  response: |-
-    7B0100E620800511300
-    7B02113000225035B80
     7B02266AAAAAAAAAAAA
 - expected_values:
     ID4_AC_COMPRESSOR_PWR_ACT: 915

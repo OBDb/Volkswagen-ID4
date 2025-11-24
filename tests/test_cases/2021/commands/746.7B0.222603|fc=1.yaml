@@ -1,8 +1,14 @@
 command_id: 746.7B0.222603|fc=1
 test_cases:
 - expected_values:
+    ID4_A_C_CMPR_SPEED: 0
+  response: 7B00462260300
+- expected_values:
     ID4_A_C_CMPR_SPEED: 2200
   response: 7B00462260316
+- expected_values:
+    ID4_A_C_CMPR_SPEED: 2400
+  response: 7B00462260318
 - expected_values:
     ID4_A_C_CMPR_SPEED: 2600
   response: 7B0046226031A

@@ -4,5 +4,5 @@ test_cases:
     ID4_SSB_R: 0
   response: 77A04622A0E00
 - expected_values:
-    ID4_SSB_R: 8.2
-  response: 77A04622A0E29
+    ID4_SSB_R: 8.4
+  response: 77A04622A0E2A

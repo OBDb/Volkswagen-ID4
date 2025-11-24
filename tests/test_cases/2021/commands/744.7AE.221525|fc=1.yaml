@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     ID4_OBC_V_PROX_A: 4437
   response: 7AE056215251155
+- expected_values:
+    ID4_OBC_V_PROX_A: 4649
+  response: 7AE056215251229
+- expected_values:
+    ID4_OBC_V_PROX_A: 4656
+  response: 7AE056215251230

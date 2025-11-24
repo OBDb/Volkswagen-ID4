@@ -6,11 +6,6 @@ test_cases:
     77A100A622AB6001400
     77A2114000000AAAAAA
 - expected_values:
-    ID4_RANGE: 29
-  response: |-
-    77A100A622AB6001D00
-    77A211D000019AAAAAA
-- expected_values:
     ID4_RANGE: 31
   response: |-
     77A100A622AB6001F00
@@ -26,10 +21,15 @@ test_cases:
     77A100A622AB6003C00
     77A213C00001FAAAAAA
 - expected_values:
-    ID4_RANGE: 242
+    ID4_RANGE: 240
   response: |-
-    77A100A622AB600F200
-    77A21F2000000AAAAAA
+    77A100A622AB600F000
+    77A21F0000000AAAAAA
+- expected_values:
+    ID4_RANGE: 245
+  response: |-
+    77A100A622AB600F500
+    77A21F50000EAAAAAAA
 - expected_values:
     ID4_RANGE: 254
   response: |-

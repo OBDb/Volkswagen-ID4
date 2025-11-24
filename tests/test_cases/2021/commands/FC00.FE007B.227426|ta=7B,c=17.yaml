@@ -1,0 +1,5 @@
+command_id: FC00.FE007B.227426|ta=7B,c=17
+test_cases:
+- expected_values:
+    ID4_HVBAT_MOD_T_18: 407
+  response: 17FE007B056274260197
