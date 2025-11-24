@@ -19,6 +19,12 @@ test_cases:
     7B010086227C47325D1
     7B021E44FAAAAAAAAAA
 - expected_values:
+    ID4_HVAC_INSIDE_HUM: 33
+    ID4_WNDSHLD_TEMP: 30.32
+  response: |-
+    7B010086227C47828F2
+    7B0210C42AAAAAAAAAA
+- expected_values:
     ID4_HVAC_INSIDE_HUM: 30
     ID4_WNDSHLD_TEMP: 30.32
   response: |-
@@ -36,12 +42,6 @@ test_cases:
   response: |-
     7B010086227C479A7A1
     7B021FC50AAAAAAAAAA
-- expected_values:
-    ID4_HVAC_INSIDE_HUM: 38
-    ID4_WNDSHLD_TEMP: 30.896
-  response: |-
-    7B010086227C479A7E2
-    7B021004CAAAAAAAAAA
 - expected_values:
     ID4_HVAC_INSIDE_HUM: 43
     ID4_WNDSHLD_TEMP: 31.472
