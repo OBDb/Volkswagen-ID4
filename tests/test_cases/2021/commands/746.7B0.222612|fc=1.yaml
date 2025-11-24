@@ -1,6 +1,12 @@
 command_id: 746.7B0.222612|fc=1
 test_cases:
 - expected_values:
+    ID4_HVAC_EVAP_T: 38
+  response: 7B005622612017C
+- expected_values:
+    ID4_HVAC_EVAP_T: 40
+  response: 7B0056226120190
+- expected_values:
     ID4_HVAC_EVAP_T: 41
   response: 7B005622612019A
 - expected_values:

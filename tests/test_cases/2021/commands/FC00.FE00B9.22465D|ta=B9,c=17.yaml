@@ -1,0 +1,8 @@
+command_id: FC00.FE00B9.22465D|ta=B9,c=17
+test_cases:
+- expected_values:
+    ID4_DC_DC_V: 13.62695
+  response: 17FE00B90562465D1B41
+- expected_values:
+    ID4_DC_DC_V: 15.1543
+  response: 17FE00B90562465D1E4F

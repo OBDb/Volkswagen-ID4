@@ -1,6 +1,36 @@
 command_id: 710.77A.222AB4|fc=1
 test_cases:
 - expected_values:
+    ID4_HVBAT_CSMP_AVG_INT: 54
+    ID4_RANGE_RESERVE_EST: 232
+  response: |-
+    77A100D622AB4000000
+    77A21E8000000000036
+- expected_values:
+    ID4_HVBAT_CSMP_AVG_INT: 54
+    ID4_RANGE_RESERVE_EST: 239
+  response: |-
+    77A100D622AB4000000
+    77A21EF000000000036
+- expected_values:
+    ID4_HVBAT_CSMP_AVG_INT: 55
+    ID4_RANGE_RESERVE_EST: 241
+  response: |-
+    77A100D622AB4000000
+    77A21F1000000000037
+- expected_values:
+    ID4_HVBAT_CSMP_AVG_INT: 55
+    ID4_RANGE_RESERVE_EST: 243
+  response: |-
+    77A100D622AB4000000
+    77A21F3000000000037
+- expected_values:
+    ID4_HVBAT_CSMP_AVG_INT: 55
+    ID4_RANGE_RESERVE_EST: 244
+  response: |-
+    77A100D622AB4000000
+    77A21F4000000000037
+- expected_values:
     ID4_HVBAT_CSMP_AVG_INT: 40
     ID4_RANGE_RESERVE_EST: 302
   response: |-

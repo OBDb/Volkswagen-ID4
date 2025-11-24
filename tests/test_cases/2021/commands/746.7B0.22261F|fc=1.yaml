@@ -1,5 +1,26 @@
 command_id: 746.7B0.22261F|fc=1
 test_cases:
 - expected_values:
+    ID4_RECIRC_FLAP_CMD_STEPS: 156
+  response: 7B00562261F009C
+- expected_values:
+    ID4_RECIRC_FLAP_CMD_STEPS: 172
+  response: 7B00562261F00AC
+- expected_values:
+    ID4_RECIRC_FLAP_CMD_STEPS: 176
+  response: 7B00562261F00B0
+- expected_values:
+    ID4_RECIRC_FLAP_CMD_STEPS: 177
+  response: 7B00562261F00B1
+- expected_values:
+    ID4_RECIRC_FLAP_CMD_STEPS: 187
+  response: 7B00562261F00BB
+- expected_values:
+    ID4_RECIRC_FLAP_CMD_STEPS: 191
+  response: 7B00562261F00BF
+- expected_values:
+    ID4_RECIRC_FLAP_CMD_STEPS: 192
+  response: 7B00562261F00C0
+- expected_values:
     ID4_RECIRC_FLAP_CMD_STEPS: 221
   response: 7B00562261F00DD

@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     ID4_FRONT_RIGHT_T_FLAP_ACT: 93.5
   response: 7B00662262600C7BB
+- expected_values:
+    ID4_FRONT_RIGHT_T_FLAP_ACT: 100
+  response: 7B00662262600D5C8
