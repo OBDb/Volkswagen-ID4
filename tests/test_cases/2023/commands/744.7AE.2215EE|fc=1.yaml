@@ -4,8 +4,8 @@ test_cases:
     ID4_CHRGR_DUR_TOTAL: 33988
   response: 7AE076215EE000084C4
 - expected_values:
-    ID4_CHRGR_DUR_TOTAL: 58535
-  response: 7AE076215EE0000E4A7
+    ID4_CHRGR_DUR_TOTAL: 59214
+  response: 7AE076215EE0000E74E
 - expected_values:
     ID4_CHRGR_DUR_TOTAL: 72825
   response: 7AE076215EE00011C79
