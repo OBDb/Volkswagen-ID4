@@ -4,6 +4,9 @@ test_cases:
     ID4_HVBAT_ECU_T: 14
   response: 17FE007B0462162240
 - expected_values:
+    ID4_HVBAT_ECU_T: 20
+  response: 17FE007B0462162246
+- expected_values:
     ID4_HVBAT_ECU_T: 21
   response: 17FE007B0462162247
 - expected_values:
