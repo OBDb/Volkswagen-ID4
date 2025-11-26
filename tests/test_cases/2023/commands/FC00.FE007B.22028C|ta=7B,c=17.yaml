@@ -4,5 +4,5 @@ test_cases:
     ID4_SOC_DISP: 18.43478
   response: 17FE007B0462028C38
 - expected_values:
-    ID4_SOC_DISP: 84.51304
-  response: 17FE007B0462028CCD
+    ID4_SOC_DISP: 85.4
+  response: 17FE007B0462028CCF
