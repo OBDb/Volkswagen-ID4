@@ -273,7 +273,7 @@
   "signals": [
     {"id": "ID4_SOC_DISP", "path": "Battery", "fmt": { "len": 8, "max": 100, "mul": 20.4, "div": 46, "add": -6.4, "unit": "percent" }, "name": "State of charge, display", "suggestedMetric": "stateOfCharge"}
   ]},
-{ "hdr": "FC00", "rax": "FE007B", "fcm1": true, "dbg": true, "cmd": {"22": "02BD"}, "freq": 1,
+{ "hdr": "FC00", "rax": "FE007B", "fcm1": true, "cmd": {"22": "02BD"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "ID4_BMS_ODO", "path": "Trips", "fmt": {"bix": 8, "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer, BMS"}
   ]},
