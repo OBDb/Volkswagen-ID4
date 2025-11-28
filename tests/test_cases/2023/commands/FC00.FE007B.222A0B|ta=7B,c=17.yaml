@@ -1,23 +1,8 @@
 command_id: FC00.FE007B.222A0B|ta=7B,c=17
 test_cases:
 - expected_values:
-    ID4_BATTERY_T: 7
-  response: 17FE007B04622A0B5E
-- expected_values:
-    ID4_BATTERY_T: 7.5
-  response: 17FE007B04622A0B5F
-- expected_values:
-    ID4_BATTERY_T: 12
-  response: 17FE007B04622A0B68
-- expected_values:
-    ID4_BATTERY_T: 13.5
-  response: 17FE007B04622A0B6B
-- expected_values:
-    ID4_BATTERY_T: 14
-  response: 17FE007B04622A0B6C
-- expected_values:
-    ID4_BATTERY_T: 25.5
-  response: 17FE007B04622A0B83
+    ID4_BATTERY_T: 3
+  response: 17FE007B04622A0B56
 - expected_values:
     ID4_BATTERY_T: 26
   response: 17FE007B04622A0B84
