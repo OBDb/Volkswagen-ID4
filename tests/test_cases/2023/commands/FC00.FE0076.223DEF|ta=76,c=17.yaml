@@ -4,11 +4,11 @@ test_cases:
     ID4_SOC: 12.5
   response: 17FE007605623DEF04E2
 - expected_values:
-    ID4_SOC: 66.5
-  response: 17FE007605623DEF19FA
+    ID4_SOC: 20.5
+  response: 17FE007605623DEF0802
 - expected_values:
-    ID4_SOC: 84.5
-  response: 17FE007605623DEF2102
+    ID4_SOC: 23
+  response: 17FE007605623DEF08FC
 - expected_values:
     ID4_SOC: 95
   response: 17FE007605623DEF251C
