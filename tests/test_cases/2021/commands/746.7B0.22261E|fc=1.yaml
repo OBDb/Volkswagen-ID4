@@ -18,6 +18,10 @@ test_cases:
   response: 7B00662261E00AF98
 - expected_values:
     ID4_RECIRC_FLAP_ACT_PCT: 83.5
+    ID4_RECIRC_FLAP_ACT_STEPS: 187
+  response: 7B00662261E00BBA7
+- expected_values:
+    ID4_RECIRC_FLAP_ACT_PCT: 83.5
     ID4_RECIRC_FLAP_ACT_STEPS: 188
   response: 7B00662261E00BCA7
 - expected_values:
