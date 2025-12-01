@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     ID4_MOTOR_TRQ_FRONT: 62
   response: 17FE007605620335003E
+- expected_values:
+    ID4_MOTOR_TRQ_FRONT: -1
+  response: 17FE007605620335FFFF
