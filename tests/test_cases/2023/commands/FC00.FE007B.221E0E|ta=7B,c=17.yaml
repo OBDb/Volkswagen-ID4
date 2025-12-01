@@ -9,9 +9,9 @@ test_cases:
     ID4_HVBAT_T_MAX_ID: 3
   response: 17FE007B07621E0E02080003
 - expected_values:
-    ID4_HVBAT_T_MAX: 14.625
-    ID4_HVBAT_T_MAX_ID: 11
-  response: 17FE007B07621E0E03A8000B
+    ID4_HVBAT_T_MAX: 10.375
+    ID4_HVBAT_T_MAX_ID: 15
+  response: 17FE007B07621E0E0298000F
 - expected_values:
     ID4_HVBAT_T_MAX: 25.75
     ID4_HVBAT_T_MAX_ID: 1
