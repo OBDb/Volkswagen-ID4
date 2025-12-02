@@ -10,5 +10,8 @@ test_cases:
     ID4_ENG_ODO: 47104
   response: 17FE00760662295A00B800
 - expected_values:
+    ID4_ENG_ODO: 48904
+  response: 17FE00760662295A00BF08
+- expected_values:
     ID4_ENG_ODO: 71837
   response: 17FE00760662295A01189D
