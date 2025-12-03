@@ -285,7 +285,7 @@
   "signals": [
     {"id": "ID4_ELDRIVE_ECU_T_1", "path": "Drivetrain", "fmt": { "len": 32, "max": 1000, "unit": "celsius" }, "name": "Electric drive ECU temperature 1"}
   ]},
-{ "hdr": "FC00", "rax": "FE007B", "pri": "17", "tst": "7C", "dbg": true, "cmd": {"22": "0806"}, "freq": 1,
+{ "hdr": "FC00", "rax": "FE007B", "pri": "17", "tst": "7C", "cmd": {"22": "0806"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "ID4_ELDRIVE_ECU_T_2", "path": "Drivetrain", "fmt": { "len": 32, "max": 1000, "unit": "celsius" }, "name": "Electric drive ECU temperature 2"}
   ]},
