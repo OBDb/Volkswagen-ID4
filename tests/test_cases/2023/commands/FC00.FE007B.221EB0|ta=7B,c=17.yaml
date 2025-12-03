@@ -1,8 +1,8 @@
 command_id: FC00.FE007B.221EB0|ta=7B,c=17
 test_cases:
 - expected_values:
-    ID4_HVBAT_MOD_T_3: 8.125
-  response: 17FE007B05621EB00181
+    ID4_HVBAT_MOD_T_3: 6.625
+  response: 17FE007B05621EB00175
 - expected_values:
     ID4_HVBAT_MOD_T_3: 16.75
   response: 17FE007B05621EB001C6
