@@ -4,5 +4,5 @@ test_cases:
     ID4_VSS: 0
   response: 17FE007B0462F40D00
 - expected_values:
-    ID4_VSS: 106
-  response: 17FE007B0462F40D6A
+    ID4_VSS: 113
+  response: 17FE007B0462F40D71
