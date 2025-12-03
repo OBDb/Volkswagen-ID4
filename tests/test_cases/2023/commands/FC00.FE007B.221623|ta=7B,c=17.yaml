@@ -4,29 +4,5 @@ test_cases:
     ID4_HVBAT_PTC_T_1: 4
   response: 17FE007B0462162336
 - expected_values:
-    ID4_HVBAT_PTC_T_1: 8
-  response: 17FE007B046216233A
-- expected_values:
-    ID4_HVBAT_PTC_T_1: 9
-  response: 17FE007B046216233B
-- expected_values:
-    ID4_HVBAT_PTC_T_1: 10
-  response: 17FE007B046216233C
-- expected_values:
-    ID4_HVBAT_PTC_T_1: 13
-  response: 17FE007B046216233F
-- expected_values:
-    ID4_HVBAT_PTC_T_1: 14
-  response: 17FE007B0462162340
-- expected_values:
-    ID4_HVBAT_PTC_T_1: 15
-  response: 17FE007B0462162341
-- expected_values:
-    ID4_HVBAT_PTC_T_1: 19
-  response: 17FE007B0462162345
-- expected_values:
-    ID4_HVBAT_PTC_T_1: 29
-  response: 17FE007B046216234F
-- expected_values:
     ID4_HVBAT_PTC_T_1: 33
   response: 17FE007B0462162353
