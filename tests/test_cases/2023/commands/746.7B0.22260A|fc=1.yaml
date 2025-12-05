@@ -1,8 +1,8 @@
 command_id: 746.7B0.22260A|fc=1
 test_cases:
 - expected_values:
-    ID4_AAT_CABIN: 3.5
-  response: 7B00462260A6B
+    ID4_AAT_CABIN: 0
+  response: 7B00462260A64
 - expected_values:
     ID4_AAT_CABIN: 24
   response: 7B00462260A94
