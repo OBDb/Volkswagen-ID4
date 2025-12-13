@@ -7,5 +7,5 @@ test_cases:
     ID4_DC_BATTERY_V: 383.75
   response: 17FE007B05621E3B05FF
 - expected_values:
-    ID4_DC_BATTERY_V: 384.5
-  response: 17FE007B05621E3B0602
+    ID4_DC_BATTERY_V: 384
+  response: 17FE007B05621E3B0600
