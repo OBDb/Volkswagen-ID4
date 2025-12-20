@@ -4,6 +4,9 @@ test_cases:
     ID4_A_C_CMPR_SPEED: 0
   response: 7B00462260300
 - expected_values:
+    ID4_A_C_CMPR_SPEED: 1600
+  response: 7B00462260310
+- expected_values:
     ID4_A_C_CMPR_SPEED: 2200
   response: 7B00462260316
 - expected_values:

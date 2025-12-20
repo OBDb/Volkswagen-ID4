@@ -1,8 +1,8 @@
 command_id: FC00.FE007B.221E3B|ta=7B,c=17
 test_cases:
 - expected_values:
-    ID4_DC_BATTERY_V: 335.25
-  response: 17FE007B05621E3B053D
+    ID4_DC_BATTERY_V: 334.75
+  response: 17FE007B05621E3B053B
 - expected_values:
     ID4_DC_BATTERY_V: 378
   response: 17FE007B05621E3B05E8
