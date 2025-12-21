@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     ID4_RADIATOR_FAN_DUTY: 39.84
   response: 17FE0076056220550F90
+- expected_values:
+    ID4_RADIATOR_FAN_DUTY: 53.13
+  response: 17FE00760562205514C1

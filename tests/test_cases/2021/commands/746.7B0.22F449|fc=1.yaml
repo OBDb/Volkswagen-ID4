@@ -21,3 +21,6 @@ test_cases:
 - expected_values:
     ID4_APP_D: 43.13725
   response: 7B00462F4496E
+- expected_values:
+    ID4_APP_D: 100
+  response: 7B00462F449FF
