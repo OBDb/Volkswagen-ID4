@@ -141,7 +141,7 @@ test_cases:
     ID4_RANGE: 255
   response: |-
     77A100A622AB600FF00
-    77A21FF00001BAAAAAA
+    77A21FF000001AAAAAA
 - expected_values:
     ID4_RANGE: 256
   response: |-
